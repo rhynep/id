@@ -8,7 +8,7 @@ body {
     color:back;
     background-color:eggshell;
     font-size:1.3em;
-    font-family:'Gloria Hallelujah', Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     text-align:justify;
     margin-left:77px;
     margin-right:77px;
@@ -92,6 +92,7 @@ header {
                     margin-top:5%;
                     align-items:flex-start;
                     line-height:1.5em;
+                    font-family:'Gloria Hallelujah', Arial, Helvetica, sans-serif;
                    
                     
                   }
@@ -113,12 +114,12 @@ div.footer {
 text-align: center;
 }
 
-div.namelogo {
+div.logoname {
     position:fixed;
     width:335px;
 }
 
-div.logo {
+div.logosymbol {
     position:fixed;
     bottom:9px;
     top:10px;
