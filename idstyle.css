@@ -92,7 +92,7 @@ header {
                     margin-top:5%;
                     align-items:flex-start;
                     line-height:1.5em;
-                                     
+                   
                     
                   }
                   
@@ -113,6 +113,11 @@ div.footer {
 text-align: center;
 }
 
+div.namelogo {
+    position:fixed;
+    width:335px;
+}
+
 div.logo {
     position:fixed;
     bottom:9px;
@@ -120,6 +125,3 @@ div.logo {
     opacity: 0.7;
 }
 
-div.namelogo {
-    position:fixed;
-    width:25%;}
