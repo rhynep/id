@@ -4,7 +4,18 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Orbitron:wght@600&display=swap');
+
+
 body {
+   
+        background: url('https://rhynep.github.io/id/images/idbg.NG') no-repeat center center fixed;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+  
+
+
     color:back;
     background-color:eggshell;
     font-size:1.3em;
@@ -12,7 +23,8 @@ body {
     text-align:justify;
     margin-left:77px;
     margin-right:77px;
-}
+
+ }
 
 
 
@@ -108,21 +120,21 @@ header {
                     
                   }
 
+img#logoname {
+    position:fixed;
+    right:9px;
+    top:10px;
+    opacity: 0.7;}
+
 /* flexbox */
 
+
+
 div.footer {
-text-align: center;
+    display:flex;
+    flex-direction:row;
+    text-align: center;
+    bottom:15px;
 }
 
-div.logoname {
-    position:fixed;
-    width:335px;
-}
-
-div.logosymbol {
-    position:fixed;
-    bottom:9px;
-    top:10px;
-    opacity: 0.7;
-}
 
