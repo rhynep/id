@@ -2,13 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira:wght@300&family=Staatliches&family=Teko:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap');
 
-
-@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Orbitron:wght@600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 
 body {
    
-        background: url('https://rhynep.github.io/id/images/idbg.NG') no-repeat center center fixed;
+        background: url('https://rhynep.github.io/id/images/idbg.PNG') no-repeat center center fixed;
         -moz-background-size: cover;
         -webkit-background-size: cover;
         -o-background-size: cover;
@@ -17,7 +15,7 @@ body {
 
 
     color:back;
-    background-color:eggshell;
+    background-color:lightgray;
     font-size:1.3em;
     font-family:Arial, Helvetica, sans-serif;
     text-align:justify;
@@ -31,18 +29,22 @@ body {
 /* links */
 a:link{
     color:black;
+    text-decoration: none;
 }
 
 a:visited{
     color:black;
+    text-decoration: none;
 }
 
 a:hover{
     color:#de5004;
+    text-decoration: line-through;
 }
 
 a:active{
-    color:#de5004;
+    color:#e9d62a;
+    text-decoration: none;
 }
 
 
@@ -93,48 +95,72 @@ header {
 
                 div.navbar {
                     display:flex;
-                    flex-direction:row;
+                    flex-direction:column;
+                    align-items:flex-start;
                     border: 1px #de5004;
                     height:100px;
                     justify-content:space-between;
-                    width:55%;
+                    width:88%;
                     margin-top:5%;
-                    margin-left:5%;
+                    margin-left:1%;
                     margin-right:5%;
                     margin-top:5%;
-                    align-items:flex-start;
-                    line-height:1.5em;
-                    font-family:'Gloria Hallelujah', Arial, Helvetica, sans-serif;
-                   
+                    line-height:2em;
+                    
                     
                   }
                   
                   
                   div.nav {
-                  background-color:eggshell;
+                    background-color:eggshell;
+                    padding-top:155px;
                     margin-bottom:10px;
                     font-size:1.3em;
                     font-family:'Saira', sans-serif, Arial, Helvetica, sans-serif;
                     color:#de5004;
+                    font-size:2em;
                     height:10%;
                     
                   }
 
 img#logoname {
     position:fixed;
-    right:9px;
-    top:10px;
-    opacity: 0.7;}
+    left:11px;
+    top:11px;
+   }
 
-/* flexbox */
-
-
-
-div.footer {
-    display:flex;
-    flex-direction:row;
-    text-align: center;
-    bottom:15px;
+    img#logosymbol {
+    position:fixed;
+    right:11px;
+    top:11px;
+    opacity: 0.7;
 }
 
+/* social media display: connect */
+img#instagram {
+    margin-left:322px;
+}
+img#youtube {
+    margin-left:333px;
+}
+img#twitter {
+    margin-left:344px;
+}
+img#facebook{
+    margin-left:355px;
+}
+img#bandcamp {
+    margin-left:366px;
+}
+
+
+/* flexbox */
+div.maintext {
+    display:flex;
+    flex-direction:row;
+    margin-left:322px;
+    font-family:'Gloria Hallelujah', Arial, Helvetica, sans-serif;
+    font-size:1.7em;
+     
+}
 
