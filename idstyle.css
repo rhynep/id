@@ -115,7 +115,7 @@ text-align: center;
 
 div.logo {
     position:fixed;
-    right:9px;
+    bottom:9px;
     top:10px;
     opacity: 0.7;
 }
