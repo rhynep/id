@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@300&family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@300&family=Staatliches&family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Orbitron:wght@600&display=swap');
+body {
+    color:back;
+    background-color:eggshell;
+    font-size:1.3em;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:justify;
+    margin-left:77px;
+    margin-right:77px;
+}
+
+
+
+/* links */
+a:link{
+    color:black;
+}
+
+a:visited{
+    color:black;
+}
+
+a:hover{
+    color:#de5004;
+}
+
+a:active{
+    color:#de5004;
+}
+
+
+
+/* headings */
+h1 {
+    color:black;
+    font-family:'Gloria Hallelujah', 'Arial Narrow Bold', sans-serif;
+    font-size:2em;
+    background-color:white;
+    text-align:left;
+}
+
+h2 {
+    color:black;
+    font-family: 'Gloria Hallelujah', sans-serif, Arial;
+    font-size:1.7em;
+}
+
+h3 {
+    color:black;
+    font-family:'Gloria Hallelujah', sans-serif, Arial, Helvetica, sans-serif;
+    font-size:1.3em;
+    font-weight:strong;
+}
+
+h4 {
+    color:black;
+}
+
+h5 {
+    color:black;
+    font-family:'Gloria Hallelujah', sans-serif, Arial;
+    font-size:large;
+}
+
+
+/* header and nav bar */
+header {
+    display: flex;
+    height: 5em;
+    justify-content: space-between;
+    align-items: center;
+    width:95%;
+/*    border: 1px solid brown;*/
+    background-color:eggshell;
+}
+
+                div.navbar {
+                    display:flex;
+                    flex-direction:row;
+                    border: 1px #de5004;
+                    height:100px;
+                    justify-content:space-between;
+                    width:55%;
+                    margin-top:5%;
+                    margin-left:5%;
+                    margin-right:5%;
+                    margin-top:5%;
+                    align-items:flex-start;
+                    line-height:1.5em;
+                                     
+                    
+                  }
+                  
+                  
+                  div.nav {
+                  background-color:eggshell;
+                    margin-bottom:10px;
+                    font-size:1.3em;
+                    font-family:'Saira', sans-serif, Arial, Helvetica, sans-serif;
+                    color:#de5004;
+                    height:10%;
+                    
+                  }
+
+/* flexbox */
+
+div.footer {
+text-align: center;
+}
+
+div.logo {
+    position:fixed;
+    right:9px;
+    top:10px;
+    opacity: 0.7;
+}
