@@ -119,3 +119,7 @@ div.logo {
     top:10px;
     opacity: 0.7;
 }
+
+div.namelogo {
+    position:fixed;
+    width:25%;}
