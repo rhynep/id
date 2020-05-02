@@ -163,36 +163,6 @@ img#copyright {
 
 
 
-/* social media image layout: for top right corner */
-/*
-img#instagram {
-    position:fixed;
-    right:188px;
-    top:0px;
-}
-img#youtube {
-    position:fixed;
-    right:144px;
-    top:0px;   
-}
-img#twitter {
-    position:fixed;
-    right:99px;
-    top:0px;    
-}
-img#facebook {
-    position:fixed;
-    right:55px;
-    top:0px; 
-}
-img#bandcamp {
-    position:fixed;
-    right:11px;
-    top:0px;
-}
-*/
-
-
 /* flexbox */
 div.maintext {
     display:flex;
