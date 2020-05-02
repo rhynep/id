@@ -52,8 +52,7 @@ h1 {
     color:black;
     font-family:'Gloria Hallelujah', 'Arial Narrow Bold', sans-serif;
     font-size:2em;
-    text-align:left;
-   
+    text-align:center; 
 }
 
 h2 {
@@ -76,8 +75,7 @@ h4 {
 h5 {
     color:black;
     font-family:'Gloria Hallelujah', sans-serif, Arial;
-    font-size:large;
-    
+    font-size:large;   
 }
 
 
