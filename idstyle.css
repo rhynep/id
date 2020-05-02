@@ -146,14 +146,14 @@ img#logoname {
 img#instagram {
     position:fixed;
     right:188px;
-    top:11px;
+    bottom:11px;
 
 }
 
 img#youtube {
     position:fixed;
     right:144px;
-    top:11px;
+    bottom:11px;
 
     
 }
@@ -161,14 +161,14 @@ img#youtube {
 img#twitter {
     position:fixed;
     right:99px;
-    top:11px;
+    bottom:11px;
        
 }
 
 img#facebook {
     position:fixed;
     right:55px;
-    top:11px;
+    bottom:11px;
 
     
 }
@@ -176,7 +176,7 @@ img#facebook {
 img#bandcamp {
     position:fixed;
     right:11px;
-    top:11px;
+    bottom:11px;
 
 }
 
