@@ -18,7 +18,7 @@ body {
     background-color:lightgray;
     font-size:1.3em;
     font-family:Arial, Helvetica, sans-serif;
-    text-align:justify;
+    text-align:center;
     margin-left:77px;
     margin-right:77px;
 
@@ -54,8 +54,8 @@ h1 {
     color:black;
     font-family:'Gloria Hallelujah', 'Arial Narrow Bold', sans-serif;
     font-size:2em;
-    background-color:white;
     text-align:left;
+   
 }
 
 h2 {
@@ -95,7 +95,7 @@ header {
 
                 div.navbar {
                     display:flex;
-                    flex-direction:column;
+                    flex-direction:row;
                     align-items:flex-start;
                     border: 1px #de5004;
                     height:100px;
@@ -116,7 +116,7 @@ header {
                     padding-top:155px;
                     margin-bottom:10px;
                     font-size:1.3em;
-                    font-family:'Saira', sans-serif, Arial, Helvetica, sans-serif;
+                    font-family:'Saira', Arial, Helvetica, sans-serif;
                     color:#de5004;
                     font-size:2em;
                     height:10%;
@@ -136,21 +136,11 @@ img#logoname {
     opacity: 0.7;
 }
 
-/* social media display: connect */
-img#instagram {
-    margin-left:322px;
-}
-img#youtube {
-    margin-left:333px;
-}
-img#twitter {
-    margin-left:344px;
-}
-img#facebook{
-    margin-left:355px;
-}
-img#bandcamp {
-    margin-left:366px;
+#footer {
+  float:bottom;
+  left:30px;
+  bottom:3px;
+  
 }
 
 
@@ -158,9 +148,16 @@ img#bandcamp {
 div.maintext {
     display:flex;
     flex-direction:row;
-    margin-left:322px;
-    font-family:'Gloria Hallelujah', Arial, Helvetica, sans-serif;
-    font-size:1.7em;
+    margin-left:422px;
+    font-family:'Saira', Arial, Helvetica, sans-serif;
+    font-size:1em;
      
+}
+
+div.socialmedia {
+display:flex;
+flex-direction: row;
+align-items:center
+
 }
 
