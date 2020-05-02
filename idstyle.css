@@ -15,7 +15,7 @@ body {
 
 
     color:back;
-    background-color:lightgray;
+    background-color:rgb(187, 186, 186);
     font-size:1.3em;
     font-family:Arial, Helvetica, sans-serif;
     margin-left:77px;
@@ -77,6 +77,7 @@ h5 {
     color:black;
     font-family:'Gloria Hallelujah', sans-serif, Arial;
     font-size:large;
+    
 }
 
 
@@ -140,9 +141,44 @@ img#logoname {
     opacity: 0.7;  
 }
 
+/* social media layout: bottom */
 
+img#instagram {
+    position:fixed;
+    right:188px;
+    top:11px;
 
+}
 
+img#youtube {
+    position:fixed;
+    right:144px;
+    top:11px;
+
+    
+}
+
+img#twitter {
+    position:fixed;
+    right:99px;
+    top:11px;
+       
+}
+
+img#facebook {
+    position:fixed;
+    right:55px;
+    top:11px;
+
+    
+}
+
+img#bandcamp {
+    position:fixed;
+    right:11px;
+    top:11px;
+
+}
 
 /* flexbox */
 div.maintext {
@@ -154,18 +190,10 @@ div.maintext {
     text-align: center;
 }
 
-div.socialmedia {
-display:fixed;
-flex-direction: row;
-align-content:right;
-text-align: right;
-bottom:7px;
-
-}
 div.footer{
     float:center;
     position:fixed;
-    bottom: 7px;
+    bottom: 0px;
     text-align: center;
 
 
