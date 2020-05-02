@@ -94,7 +94,7 @@ header {
                     display:flex;
                     flex-direction:row;
                     align-items:flex-start;
-                    border: 1px #de5004;
+                    border: px #de5004;
                     height:100px;
                     justify-content:space-between;
                     width:88%;
@@ -113,7 +113,7 @@ header {
                     margin-bottom:10px;
                     font-size:1.3em;
                     font-family:'Saira', Arial, Helvetica, sans-serif;
-                    color:#de5004;
+                    color:darkgrey;
                     font-size:2em;
                     height:10%;
                     
@@ -129,6 +129,7 @@ img#logoname {
     position:fixed;
     left:11px;
     top:11px;
+    opacity: 92%;
    }
 
 /* band logo */
@@ -139,44 +140,58 @@ img#logoname {
     opacity: 0.7;  
 }
 
-/* copyright */
+/* copyright */ /*
 img#copyright {
     position:fixed;
     right:422px;
     bottom:0px;
     width:222px;
-}
-/* social media image layout: bottom */
+}*/
 
+/* footer */
+#footer{
+    display:flex;
+    flex-direction: row;
+    float:center;
+    position:fixed;
+    left:44%;
+    bottom: 3px;
+    text-align: center;
+    align-content: center;   
+    opacity: 33%;
+}
+
+
+
+/* social media image layout: for top right corner */
+/*
 img#instagram {
     position:fixed;
     right:188px;
     top:0px;
 }
-
 img#youtube {
     position:fixed;
     right:144px;
     top:0px;   
 }
-
 img#twitter {
     position:fixed;
     right:99px;
     top:0px;    
 }
-
 img#facebook {
     position:fixed;
     right:55px;
     top:0px; 
 }
-
 img#bandcamp {
     position:fixed;
     right:11px;
     top:0px;
 }
+*/
+
 
 /* flexbox */
 div.maintext {
@@ -188,12 +203,3 @@ div.maintext {
     text-align: center;
 }
 
-div.footer{
-    float:center;
-    position:fixed;
-    bottom: 0px;
-    text-align: center;
-
-
-    
-}
