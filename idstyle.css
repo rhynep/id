@@ -121,6 +121,8 @@ header {
                   }
 
 
+
+
 /* object identifiers */
 
 /* band name */
@@ -138,29 +140,34 @@ img#logoname {
     opacity: 0.7;  
 }
 
-h5#footerview {
-    text-align:center;
-}
+
+
 
 
 /* flexbox */
 div.maintext {
     display:flex;
     flex-direction:row;
-    margin-left:422px;
+    margin-left:322px;
     font-family:'Saira', Arial, Helvetica, sans-serif;
     font-size:1em; 
+    text-align: center;
 }
 
 div.socialmedia {
-display:flex;
+display:fixed;
 flex-direction: row;
-align-content:center;
+align-content:right;
+text-align: right;
+bottom:7px;
 
 }
 div.footer{
+    float:center;
     position:fixed;
-    bottom:7px;
+    bottom: 7px;
+    text-align: center;
+
 
     
 }
