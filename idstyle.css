@@ -20,8 +20,7 @@ body {
     font-family:Arial, Helvetica, sans-serif;
     margin-left:77px;
     margin-right:77px;
-
- }
+     }
 
 
 
@@ -53,7 +52,7 @@ h1 {
     color:black;
     font-family:'Gloria Hallelujah', 'Arial Narrow Bold', sans-serif;
     font-size:2em;
-    text-align:left:;
+    text-align:left;
    
 }
 
@@ -87,8 +86,8 @@ header {
     height: 5em;
     justify-content: space-between;
     align-items: center;
-    width:95%;
-/*    border: 1px solid brown;*/
+    width:22%;
+    /*border: 2px dotted #de5004;*/
     background-color:eggshell;
 }
 
@@ -105,8 +104,7 @@ header {
                     margin-right:5%;
                     margin-top:5%;
                     line-height:2em;
-                    
-                    
+                      
                   }
                   
                   
@@ -122,24 +120,26 @@ header {
                     
                   }
 
+
+/* object identifiers */
+
+/* band name */
 img#logoname {
     position:fixed;
     left:11px;
     top:11px;
    }
 
+/* band logo */
     img#logosymbol {
     position:fixed;
     right:11px;
     top:11px;
-    opacity: 0.7;
+    opacity: 0.7;  
 }
 
-#footer {
-  float:bottom;
-  left:30px;
-  bottom:3px;
-  
+h5#footerview {
+    text-align:center;
 }
 
 
@@ -149,14 +149,18 @@ div.maintext {
     flex-direction:row;
     margin-left:422px;
     font-family:'Saira', Arial, Helvetica, sans-serif;
-    font-size:1em;
-     
+    font-size:1em; 
 }
 
 div.socialmedia {
 display:flex;
 flex-direction: row;
-align-content:right;
+align-content:center;
 
 }
+div.footer{
+    position:fixed;
+    bottom:7px;
 
+    
+}
