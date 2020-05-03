@@ -151,7 +151,13 @@ img#copyright {
 }*/
 
 img#bandbg {
-    opacity:50%;
+    float:center;
+    position: absolute;
+    opacity:33%;
+    top:22px;
+    right:25%;
+    left:25%;
+
 }
 /* footer */
 #footer{
@@ -165,6 +171,11 @@ img#bandbg {
     align-content: center;   
     opacity: 33%;
 } 
+
+
+
+
+
 
 /* nav labels */
 a#about {
@@ -197,13 +208,17 @@ a#store {
 }
 
 
+
+
+
 /* other flexbox */
 div.maintext {
     display:flex;
     flex-direction:row;
-    margin-left:322px;
+    margin-left:44%;
     font-family:'Saira', Arial, Helvetica, sans-serif;
     font-size:1em; 
     text-align: center;
 }
+
 
