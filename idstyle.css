@@ -163,9 +163,38 @@ img#copyright {
     opacity: 33%;
 } 
 
+/* nav labels */
+a#about {
+    color: #de5004;
+    text-decoration: line-through;
+}
+a#videos {
+    color: #de5004;
+    text-decoration: line-through;
+}
+a#music {
+    color: #de5004;
+    text-decoration: line-through;
+}
+a#photos {
+    color: #de5004;
+    text-decoration: line-through;
+}
+a#connect {
+    color: #de5004;
+    text-decoration: line-through;
+}
+a#events {
+    color: #de5004;
+    text-decoration: line-through;
+}
+a#store {
+    color: #de5004;
+    text-decoration: line-through;
+}
 
 
-/* flexbox */
+/* other flexbox */
 div.maintext {
     display:flex;
     flex-direction:row;
