@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira:wght@300&family=Teko:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Saira:wght@300&family=Staatliches&family=Teko:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 
 body {
@@ -113,7 +113,7 @@ header {
                     padding-top:155px;
                     margin-bottom:10px;
                     font-size:1.3em;
-                    font-family:'Saira', Arial, Helvetica, sans-serif;
+                    font-family:'Lacquer','Saira', Arial, Helvetica, sans-serif;
                     color:darkgrey;
                     font-size:2em;
                     height:10%;
