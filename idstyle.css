@@ -6,7 +6,7 @@
 
 body {
    
-        background: url('https://rhynep.github.io/id/images/symbol_fire_small.png') no-repeat center center fixed;
+        background: url('https://rhynep.github.io/id/images/symbol_black_large.png') no-repeat center center fixed;
         -moz-background-size: cover;
         -webkit-background-size: cover;
         -o-background-size: cover;
@@ -113,7 +113,7 @@ header {
                     padding-top:155px;
                     margin-bottom:10px;
                     font-size:1.3em;
-                    font-family:'Lacquer','Saira', Arial, Helvetica, sans-serif;
+                    font-family:'Saira', Arial, Helvetica, sans-serif;
                     color:darkgrey;
                     font-size:2em;
                     height:10%;
