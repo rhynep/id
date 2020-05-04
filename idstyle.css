@@ -81,44 +81,26 @@ h5 {
 
 
 /* header and nav bar */
-header {
-    display: flex;
-    height: 5em;
-    justify-content: space-between;
-    align-items: center;
-    width:22%;
-    /*border: 2px dotted #de5004;*/
-    background-color:eggshell;
-}
 
-                div.navbar {
-                    display:flex;
-                    flex-direction:row;
-                    align-items:flex-start;
-                    border: px #de5004;
-                    height:100px;
-                    justify-content:space-between;
-                    width:88%;
-                    margin-top:5%;
-                    margin-left:1%;
-                    margin-right:5%;
-                    margin-top:5%;
-                    line-height:2em;
-                      
-                  }
                   
                   
                   div.nav {
-                    background-color:eggshell;
+                    display:flex;
+                    flex-direction: column;
                     padding-top:155px;
-                    margin-bottom:10px;
+                    margin-bottom:1px;
                     font-size:1.3em;
                     font-family:'Saira', Arial, Helvetica, sans-serif;
                     color:darkgrey;
                     font-size:2em;
                     height:10%;
                     text-align: left;
-                    
+                    justify-content: space-between;
+                    margin-top:5%;
+                    margin-left:1%;
+                    margin-right:5%;
+                    margin-top:5%;
+                    line-height:0.5em;
                   }
 
 
@@ -153,12 +135,18 @@ img#copyright {
 img#bandbg {
     float:center;
     position: absolute;
-    opacity:33%;
-    top:22px;
+    top:33px;
     right:25%;
     left:25%;
-
+    opacity:33%;
 }
+
+img#firelogo {
+    position:absolute;
+    top:11px;
+    right:77%;
+}
+
 /* footer */
 #footer{
     display:flex;
