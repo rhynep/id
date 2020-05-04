@@ -121,7 +121,7 @@ img#logoname {
     position:fixed;
     right:11px;
     top:11px;
-    opacity: 0.7;  
+    
 }
 
 /* copyright */ /*
@@ -141,11 +141,8 @@ img#bandbg {
     opacity:33%;
 }
 
-img#firelogo {
-    position:absolute;
-    top:11px;
-    right:77%;
-}
+
+   
 
 /* footer */
 #footer{
