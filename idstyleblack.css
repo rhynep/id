@@ -11,10 +11,10 @@ body {
     background-attachment: fixed;
     background-position: center;
 
-    color:black;
-    background-color:rgb(187, 186, 186);
+    color:white;
+    background-color:black;
     font-size:1.3em;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Special Elite', Arial, Helvetica, sans-serif;
     margin-left:77px;
     margin-right:77px;
   
@@ -32,12 +32,12 @@ body {
 
 /* links */
 a:link{
-    color:black;
+    color:white;
     text-decoration: none;
 }
 
 a:visited{
-    color:black;
+    color:white;
     text-decoration: none;
 }
 
@@ -55,7 +55,7 @@ a:active{
 
 /* headings */
 h1 {
-    color:#000000;
+    color:white;
     font-family:'Special Elite', 'Arial Narrow Bold', sans-serif;
     font-size:1em;
     text-align: center;
@@ -64,14 +64,14 @@ h1 {
 }
 
 h2 {
-    color:black;
+    color:white;
     font-family:'Special Elite', 'Arial Narrow Bold', sans-serif;
     font-size:1em;
     margin-bottom:0.5em;
 }
 
 h3 {
-    color:black;
+    color:white;
     font-family:'Special Elite', sans-serif, Arial, Helvetica, sans-serif;
     font-size:1em;
     font-weight:strong;
@@ -79,13 +79,13 @@ h3 {
 }
 
 h4 {
-    color:black;
+    color:white;
     font-family:'Saira', sans-serif, Arial, Helvetica, sans-serif;
     margin-bottom:0.5em;
 }
 
 h5 {
-    color:black;
+    color:white;
     font-family:'Saira', sans-serif, Arial;
     font-size:large;   
     margin-bottom:0.5em;
@@ -101,7 +101,7 @@ div.nav {
     margin-bottom:1px;
     font-size:1.3em;
     font-family:'Special Elite', 'Saira', Arial, Helvetica, sans-serif;
-    color:darkgrey;
+    color:black;
     font-size:2em;
     height:10%;
     text-align: left;
