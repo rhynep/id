@@ -6,7 +6,7 @@
 
 body {
 
-    background-image: url('https://rhynep.github.io/id/images/bg_light_noise.png');
+    background-image: url('https://rhynep.github.io/id/images/bg_light_noise2.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -111,7 +111,7 @@ div.nav {
     margin-left:1%;
     margin-right:5%;
     margin-top:5%;
-    line-height:33px;    
+    line-height:0.9em;    
 }
 
 
