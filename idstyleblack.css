@@ -6,7 +6,7 @@
 
 body {
 
-    background-image: url('https://rhynep.github.io/id/images/bg_light.png');
+    background-image: url('https://rhynep.github.io/id/images/bg_light_noise.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -153,7 +153,7 @@ img#logoname {
     position:fixed;
     left:11px;
     top:11px;
-    opacity: 92%;
+    opacity: 88%;
    }
 
 /* band logo */
