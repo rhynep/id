@@ -20,6 +20,7 @@ body {
   
      }
 
+
  /* use media query to ask how big the viewport is */
 @media (max-width: 750px) { /* these rules take effect when the viewport is small */
     body{
@@ -32,12 +33,12 @@ body {
 
 /* links */
 a:link{
-    color:white;
+    color:grey;
     text-decoration: none;
 }
 
 a:visited{
-    color:white;
+    color:grey;
     text-decoration: none;
 }
 
@@ -110,7 +111,7 @@ div.nav {
     margin-left:1%;
     margin-right:5%;
     margin-top:5%;
-    line-height:0.5em;    
+    line-height:33px;    
 }
 
 
