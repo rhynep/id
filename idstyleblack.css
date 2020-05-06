@@ -224,6 +224,17 @@ div.maintext {
 
 
 /* music */
+div.musictext {
+    display:flex;
+    flex-direction: column;
+    margin-left:22%;
+    font-family:'Saira', Arial, Helvetica, sans-serif;
+    font-size:1em; 
+    text-align: justify;
+    font-family:'PT Sans Narrow', 'Arial Narrow Bold', sans-serif;
+    margin-bottom:0.5px;
+}
+
 div.music {
     display:flex;
     flex-direction:row;
