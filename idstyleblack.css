@@ -231,7 +231,6 @@ div.musictext {
     font-family:'Saira', Arial, Helvetica, sans-serif;
     font-size:1em; 
     text-align: justify;
-    font-family:'PT Sans Narrow', 'Arial Narrow Bold', sans-serif;
     margin-bottom:0.5px;
 }
 
@@ -245,18 +244,26 @@ div.music {
 }
 
 /* videos */
+div.videostext {
+    display:flex;
+    align-content: center;
+    margin-left:22%;
+    margin-bottom:0.5px;
+}
+        /* list of videos */
 div.endlessvideo {
     display:flex;
-    flex-direction: row;
-    align-content:center;
-    margin-left:33%;
+    align-content: center;
+    margin-left:22%;
+    margin-bottom:0.5px;
 }
+
 
 div.carelessvideo {
     display:flex;
-    flex-direction: row;
     align-content: center;
-    margin-left:33%;
+    margin-left:22%;
+    margin-bottom:0.5px;
 }
 
 /* about */
@@ -267,7 +274,6 @@ div.bandbio {
     font-family:'Saira', Arial, Helvetica, sans-serif;
     font-size:1em; 
     text-align: justify;
-    font-family:'PT Sans Narrow', 'Arial Narrow Bold', sans-serif;
     margin-bottom:0.5px;
 }
 
@@ -279,7 +285,6 @@ div.photostext {
     font-family:'Saira', Arial, Helvetica, sans-serif;
     font-size:1em; 
     text-align: justify;
-    font-family:'PT Sans Narrow', 'Arial Narrow Bold', sans-serif;
     margin-bottom:0.5px;
 }
 
@@ -291,7 +296,6 @@ div.connecttext {
     font-family:'Saira', Arial, Helvetica, sans-serif;
     font-size:1em; 
     text-align: justify;
-    font-family:'PT Sans Narrow', 'Arial Narrow Bold', sans-serif;
     margin-bottom:0.5px;
 }
 /* events */
@@ -302,7 +306,6 @@ div.eventstext {
     font-family:'Saira', Arial, Helvetica, sans-serif;
     font-size:1em; 
     text-align: justify;
-    font-family:'PT Sans Narrow', 'Arial Narrow Bold', sans-serif;
     margin-bottom:0.5px;
 }
 /* store */
@@ -313,7 +316,6 @@ div.storetext {
     font-family:'Saira', Arial, Helvetica, sans-serif;
     font-size:1em; 
     text-align: justify;
-    font-family:'PT Sans Narrow', 'Arial Narrow Bold', sans-serif;
     margin-bottom:0.5px;
 }
 
