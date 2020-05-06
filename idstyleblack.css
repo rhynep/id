@@ -180,7 +180,8 @@ img#logoname {
 
 /* about */
 img#aboutbandimage {
-    position: absolute;
+    position: fixed;
+    align-content: center;
     right:22px;
     top:22px;
     opacity: 0.7;
@@ -276,7 +277,15 @@ div.bandbio {
     text-align: justify;
     margin-bottom:0.5px;
 }
-
+div.aboutimage {
+    display:flex;
+    flex-direction: column;
+    margin-left:22%;
+    font-family:'Saira', Arial, Helvetica, sans-serif;
+    font-size:1em; 
+    text-align: justify;
+    margin-bottom:0.5px;
+}
 /* photos */
 div.photostext {
     display:flex;
@@ -324,15 +333,15 @@ div.storetext {
 div.flashes1 {
     position:fixed;
     color:red;
-    margin-left:1%;
-    margin-top:33%;
+    margin-left:11%;
+    margin-top:11%;
 }
 
 div.flashes2 {
     position:fixed;
     color:black;
-    margin-left:7%;
-    margin-top:44%
+    margin-left:11%;
+    margin-top:22%
    
 }
 
