@@ -206,6 +206,13 @@ div.maintext {
 
 }
 
+/* main */
+div.mainsymbol {
+    position:fixed;
+    left:33%;
+    top:22px;
+}
+
 /* music */
 div.music {
     display:flex;
@@ -214,18 +221,6 @@ div.music {
     font-family:'Saira', Arial, Helvetica, sans-serif;
     font-size:1em; 
     text-align: justify;
-}
-
-/* about */
-div.bandbio {
-    display:flex;
-    flex-direction: column;
-    margin-left:22%;
-    font-family:'Saira', Arial, Helvetica, sans-serif;
-    font-size:1em; 
-    text-align: justify;
-    font-family:'PT Sans Narrow', 'Arial Narrow Bold', sans-serif;
-    margin-bottom:0.5px;
 }
 
 /* videos */
@@ -242,6 +237,21 @@ div.carelessvideo {
     align-content: center;
     margin-left:33%;
 }
+
+/* about */
+div.bandbio {
+    display:flex;
+    flex-direction: column;
+    margin-left:22%;
+    font-family:'Saira', Arial, Helvetica, sans-serif;
+    font-size:1em; 
+    text-align: justify;
+    font-family:'PT Sans Narrow', 'Arial Narrow Bold', sans-serif;
+    margin-bottom:0.5px;
+}
+
+
+
 
 /* subliminal symbol flashes */
 div.flashes1 {
@@ -265,8 +275,4 @@ div.flashes3 {
     margin-left:1%;
     margin-top:33%;
 }
-div.mainsymbol {
-    position:fixed;
-    left:33%;
-    top:22px;
-}
+
