@@ -246,8 +246,11 @@ div.music {
 /* videos */
 div.videostext {
     display:flex;
-    align-content: center;
+    flex-direction: column;
     margin-left:22%;
+    font-family:'Saira', Arial, Helvetica, sans-serif;
+    font-size:1em; 
+    text-align: justify;
     margin-bottom:0.5px;
 }
         /* list of videos */
