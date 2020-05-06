@@ -147,7 +147,8 @@ a#store {
 
 /* object identifiers */
 
-/* band name */
+
+        /* band name */
 img#logoname {
     position:fixed;
     left:11px;
@@ -155,7 +156,7 @@ img#logoname {
     opacity: 92%;
    }
 
-/* band logo */
+        /* band logo */
     img#logosymbol {
     position:fixed;
     right:11px;
@@ -163,6 +164,7 @@ img#logoname {
 } 
 
 /* footer */
+        /* footer */
 #footer {
     display:flex;
     flex-direction: row;
@@ -175,6 +177,10 @@ img#logoname {
     opacity: 33%;
 } 
 
+/* main */
+/* music */ 
+/* videos */
+
 /* about */
 img#aboutbandimage {
     position: absolute;
@@ -183,6 +189,15 @@ img#aboutbandimage {
     opacity: 0.7;
 }
 
+img#idwhite {
+    position:fixed;
+    left:33%;
+    top:22px;
+}
+/* photos */
+/* connect */
+/* events */
+/* store */
 
 
 /* etc images */
@@ -196,6 +211,8 @@ img#yellowbackground {
 
 
 /* other flexbox */
+
+/* main */
 div.maintext {
     display:flex;
     flex-direction:row;
@@ -204,13 +221,6 @@ div.maintext {
     font-size:1em; 
     text-align: center;
 
-}
-
-/* main */
-div.mainsymbol {
-    position:fixed;
-    left:33%;
-    top:22px;
 }
 
 /* music */
@@ -250,6 +260,10 @@ div.bandbio {
     margin-bottom:0.5px;
 }
 
+/* photos */
+/* connect */
+/* events */
+/* store */
 
 
 
