@@ -6,7 +6,7 @@
 
 body {
 
-    background-image: url('https://rhynep.github.io/id/images/bg_light_noise2.png');
+    background-image: url('https://rhynep.github.io/id/images/bg_light2.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -98,20 +98,18 @@ div.nav {
     display:flex;
     flex-direction: column;
     position:fixed;
-    padding-top:155px;
+    padding-top:144px;
     margin-bottom:1px;
-    font-size:1.3em;
+    font-size:1.4em;
     font-family:'Special Elite', 'Saira', Arial, Helvetica, sans-serif;
     color:black;
-    font-size:2em;
     height:10%;
     text-align: left;
     justify-content: space-between;
-    margin-top:5%;
-    margin-left:0%;
-    margin-right:5%;
-    margin-top:5%;
-    line-height:0.6em;    
+    margin-top:3%;
+   
+  
+    line-height:0.8em;    
 }
 
 
@@ -153,7 +151,7 @@ img#logoname {
     position:fixed;
     left:11px;
     top:11px;
-    opacity: 88%;
+    opacity: 55%;
    }
 
 /* band logo */
@@ -179,7 +177,9 @@ img#logoname {
 /* about */
 img#yellowbackground {
     float:right;
-    margin:.5em .5em .5em .5em;
+    top:55px;
+    right:100px;
+    
 }
 
 
