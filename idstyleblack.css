@@ -238,7 +238,7 @@ div.musictext {
 div.music {
     display:flex;
     flex-direction:row;
-    margin-left:22%;
+    margin-left:33%;
     font-family:'Saira', Arial, Helvetica, sans-serif;
     font-size:1em; 
     text-align: justify;
