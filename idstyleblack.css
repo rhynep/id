@@ -6,10 +6,10 @@
 
 body {
 
-    background-image: url('https://rhynep.github.io/id/images/bg_light.png');
+  /*  background-image: url('https://rhynep.github.io/id/images/bg_light.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center; */
 
     color:white;
     background-color:black;
@@ -180,6 +180,7 @@ img#yellowbackground {
     float:right;
     top:55px;
     right:100px;
+    transform: rotate(11deg) scale(0.9);
     
 }
 
@@ -230,4 +231,32 @@ div.carelessvideo {
     flex-direction: row;
     align-content: center;
     margin-left:33%;
+}
+
+/* subliminal symbol flashes */
+div.flashes1 {
+    position:float;
+    color:red;
+    margin-left:1%;
+    margin-top:33%%;
+}
+
+div.flashes2 {
+    position:fixed;
+    color:black;
+    margin-left:7%;
+    margin-top:44%
+   
+}
+
+div.flashes3 {
+    position:absolute;
+    color:black;
+    margin-left:1%;
+    margin-top:33%;
+}
+div.mainsymbol {
+    position:fixed;
+    right:22%;
+    top:7%;
 }
