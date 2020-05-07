@@ -184,7 +184,7 @@ img#aboutbandimage {
     align-content: center;
     top:1px;
     right:22%;
-    left:22%;
+    left:33%;
 }
 
 img#idwhite {
@@ -206,6 +206,7 @@ img#yellowbackground {
     transform: rotate(11deg) scale(0.9);
     
 }
+
 
 
 /* other flexbox */
