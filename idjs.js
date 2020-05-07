@@ -1,6 +1,9 @@
 // subliminal symbol flashes 
-subliminal1 = document.getElementById("flashesA"); // gets element by id
-subliminal1.addEventListener("mousemove", onMouseMove);     // adds event listener so click causes the color to change
+
+// red flash
+subliminal1 = document.getElementById("flashesA"); 
+subliminal1 = document.getElementById("flashesB"); 
+subliminal1.addEventListener("mousemove", onMouseMove);    
 
 function OnMouseMove(flashes1) {
     flashesA.src = "http://rhynep.github.io/id/images/id_red.png";
@@ -8,8 +11,8 @@ function OnMouseMove(flashes1) {
 
 }
 
-subliminal1 = document.getElementById("flashesA"); // gets element by id
-subliminal1.addEventListener("mouseout", onMouseOut);     // adds event listener so click causes the color to change
+subliminal1 = document.getElementById("flashesA"); 
+subliminal1.addEventListener("mouseout", onMouseMove1);     
 
 function MouseOut(flashes1) {
     flashesA.src = "";
@@ -19,4 +22,19 @@ function MouseOut(flashes1) {
 
 
 
+// pink flash
+subliminal2 = document.getElementById("flashesB"); 
+subliminal2.addEventListener("mousemove", onMouseMove2);    
 
+function OnMouseMove2(flashes2) {
+    flashesB.src = "http://rhynep.github.io/id/images/id_pink.png";
+    flashesB.style.width = "auto";
+
+}
+
+subliminal2 = document.getElementById("flashesB"); 
+subliminal2.addEventListener("mouseout", onMouseMove3);     
+
+function MouseOut(flashes2) {
+    flashesB.src = "";
+}

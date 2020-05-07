@@ -98,10 +98,10 @@ h5 {
 div.nav {
     display:flex;
     flex-direction: column;
-    position:absolute;
+    position:fixed;
     padding-top:9%;
     margin-bottom:1px;
-    margin-top:5%;
+    margin-top:7%;
     margin-left:3%;
     font-size:1.2em;
     font-family:'Special Elite', 'Saira', Arial, Helvetica, sans-serif;
@@ -333,7 +333,7 @@ div.storetext {
 /* subliminal symbol flashes */
 div.flashes1 {
     position:fixed;
-    color:red;
+    color:black;
     margin-left:11%;
     margin-top:11%;
 }
@@ -341,8 +341,8 @@ div.flashes1 {
 div.flashes2 {
     position:fixed;
     color:black;
-    margin-left:11%;
-    margin-top:22%
+    margin-left:22%;
+    margin-top:3%
    
 }
 
