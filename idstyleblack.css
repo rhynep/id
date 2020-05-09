@@ -89,6 +89,7 @@ h1 {
     font-family:'Special Elite', 'Arial Narrow Bold', sans-serif;
     font-size:1em;
     text-align: right;
+    margin-right:3%;
     margin-left:33%;
     margin-bottom:0.5em; 
 }
@@ -203,10 +204,9 @@ img#logoname {
 #footer {
     display:flex;
     flex-direction: row;
-    float:center;
+    float:right;
     position:fixed;
-    left:25%;
-    right:25%;
+    right:3%;
     bottom: 3px;
     text-align: center;
     align-content: center;   
@@ -224,6 +224,8 @@ img#aboutbandimage {
     top:1px;
     right:22%;
     left:33%;
+    width:40%;
+   
 }
 
 
@@ -370,8 +372,8 @@ div.flashes1 {
     visibility:hidden;
     position:fixed;
     color:black;
-    margin-left:11%;
-    margin-top:11%;
+    margin-left:5%;
+    margin-top:77%;
     transition-property:visibility;
     transition-duration: 1s;
 }
@@ -379,19 +381,10 @@ div.flashes1 {
 div.flashes2 {
     position:fixed;
     color:black;
-    margin-left:22%;
-    margin-top:3%
+    margin-left:7%;
+    margin-top:22%
    
 }
 
-div.flashes3 {
-    position:absolute;
-    color:black;
-    margin-left:1%;
-    margin-top:33%;
+
 }
-
-
-
-
-
