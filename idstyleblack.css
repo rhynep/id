@@ -99,7 +99,7 @@ h2 {
     font-family:'PT Sans Narrow', 'Arial Narrow Bold', sans-serif;
     font-size:1.3em;
     margin-bottom:0.5em;
-    margin-left:33%;
+    margin-left:155px;
 }
 
 h3 {
@@ -108,6 +108,7 @@ h3 {
     font-size:1em;
     font-weight:strong;
     margin-bottom:0.5em;
+    margin-left: 155px;
 }
 
 h4 {
@@ -222,10 +223,9 @@ img#logoname {
 img#aboutbandimage {
     position: fixed;
     align-content: center;
-    top:1px;
+    padding-top:111px;
+    padding-left:155px;
     right:22%;
-    left:33%;
-    width:40%;  
 }
 
 
@@ -268,14 +268,32 @@ div.musictext {
     text-align: justify;
     margin-bottom:0.5px;
 }
+        /*********** list of songs ***********/
+audio#song1 {
+    display:flex;
+    align-items:right;
+    padding-left:155px;
+}
+audio#song2 {
+    display:flex;
+    align-items:right;
+    padding-left:155px;
+}
+audio#song3 {
+    display:flex;
+    align-items:right;
+    padding-left:155px;
+}
+
 
 div.music {
     display:flex;
-    flex-direction:row;
-    margin-left:33%;
+    flex-direction:column;
     font-family:'Saira', Arial, Helvetica, sans-serif;
     font-size:1em; 
     text-align: justify;
+    padding-top:111px;
+    padding-left:155px;
 }
 
 /* videos */
@@ -373,6 +391,10 @@ div.storetext {
 
 /* photos */
         /*********** square photos with js ***********/
+        section#squarez {
+            display:flex;
+        }
+
 div.squarediv {
 display:none; 
 width:fit-content;
@@ -410,7 +432,8 @@ div.squarediv2 {
 }
 
 img#square2 {
-
+    display:flex;
+    flex-direction: row;
     width:311px;
     align-content: right;
     padding-top:1px;
@@ -426,7 +449,8 @@ div.squarediv3 {
 }
 
 img#square3 {
-
+    display:flex;
+    flex-direction: row;
     width:311px;
     align-content: right;
     padding-top:1px;
@@ -442,7 +466,8 @@ div.squarediv4 {
 }
 
 img#square4 {
-
+    display:flex;
+    flex-direction: row;
     width:311px;
     align-content: right;
     padding-top:1px;
@@ -458,7 +483,8 @@ div.squarediv5 {
 }
 
 img#square5 {
-
+    display:flex;
+    flex-direction: row;
     width:311px;
     align-content: right;
     padding-top:1px;
@@ -474,7 +500,8 @@ div.squarediv6 {
 }
 
 img#square6 {
-
+    display:flex;
+    flex-direction: row;
     width:311px;
     align-content: right;
     padding-top:1px;
@@ -490,7 +517,8 @@ div.squarediv7 {
 }
 
 img#square7 {
-
+    display:flex;
+    flex-direction: row;
     width:311px;
     align-content: right;
     padding-top:1px;
@@ -506,7 +534,8 @@ div.squarediv8 {
 }
 
 img#square8 {
-
+    display:flex;
+    flex-direction: row;
     width:311px;
     align-content: right;
     padding-top:1px;
