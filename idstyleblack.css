@@ -230,6 +230,24 @@ img#aboutbandimage {
 
 
 /* photos */
+
+div.squarediv1 {
+    display:none; 
+    width:fit-content;
+}
+
+img#square1 {
+    width:100px;
+    margin-right:0.3px;
+    margin-left:33%;
+    margin-bottom:0.3px;
+    margin-top:0.3px;
+}
+
+
+
+
+
 /* connect */
 /* events */
 /* store */
@@ -365,6 +383,11 @@ div.storetext {
     text-align: justify;
     margin-bottom:0.5px;
 }
+
+
+
+
+
 
 
 /* subliminal symbol flashes */
