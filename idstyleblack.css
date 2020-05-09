@@ -20,8 +20,8 @@ body {
   
      }
 
-
- /* use media query to ask how big the viewport is */
+/* *********** *//* MEDIA QUERY *//* *********** */
+/* use media query to ask how big the viewport is */
 @media (max-width: 350px) { /* these rules take effect when the viewport is small */
     body{
     margin-left: 0px;
@@ -60,7 +60,7 @@ body {
     }      
 
 
-/* links */
+/* *********** *//* LINKS *//* *********** */
 a:link{
     color:grey;
     text-decoration: none;
@@ -83,7 +83,7 @@ a:active{
 
 
 
-/* headings */
+/* *********** *//* HEADINGS *//* *********** */
 h1 {
     color:white;
     font-family:'Special Elite', 'Arial Narrow Bold', sans-serif;
@@ -124,12 +124,12 @@ h5 {
 }
 
 
-/* nav bar */         
+/* *********** *//* NAV BAR *//* *********** */        
 div.nav {
     display:flex;
     flex-direction: column;
     position:fixed;
-    padding-top:9%;
+    padding-top:111px;
     margin-bottom:1px;
     top:22px;
     margin-left:3%;
@@ -173,8 +173,9 @@ a#store {
 }
 
 
-/* object identifiers */
+/* *********** *//* MAIN LAYOUT IMAGES *//* *********** */
 
+/* object identifiers */
 
         /* band name */
 img#logoname {
@@ -184,8 +185,8 @@ img#logoname {
     opacity: 92%;
     width:211px;
    }
-
-   img#idwhite {
+        /* band symbol */
+   img#idsymbol {
     position:fixed;
     align-content:center;
     right:3%;
@@ -212,10 +213,10 @@ img#logoname {
     align-content: center;   
     opacity: 33%;
 } 
-
+/* *********** *//* IMAGES BY PAGE *//* *********** */
 /* main */
 /* music */ 
-/* videos */
+/* videos */    
 
 /* about */
 img#aboutbandimage {
@@ -224,30 +225,11 @@ img#aboutbandimage {
     top:1px;
     right:22%;
     left:33%;
-    width:40%;
-   
+    width:40%;  
 }
 
 
 /* photos */
-
-div.squarediv1 {
-    display:none; 
-    width:fit-content;
-}
-
-img#square1 {
-    width:100px;
-    margin-right:0.3px;
-    margin-left:33%;
-    margin-bottom:0.3px;
-    margin-top:0.3px;
-}
-
-
-
-
-
 /* connect */
 /* events */
 /* store */
@@ -259,12 +241,11 @@ img#yellowbackground {
     top:55px;
     right:100px;
     transform: rotate(11deg) scale(0.9);
-    
 }
 
 
 
-/* other flexbox */
+/* *********** *//* DIV: OTHER FLEXBOX BY PAGE *//* *********** */
 
 /* main */
 div.maintext {
@@ -274,7 +255,6 @@ div.maintext {
     font-family:'Saira', Arial, Helvetica, sans-serif;
     font-size:1em; 
     text-align: center;
-
 }
 
 
@@ -308,7 +288,7 @@ div.videostext {
     text-align: justify;
     margin-bottom:0.5px;
 }
-        /* list of videos */
+        /*********** list of videos ***********/
 div.endlessvideo {
     display:flex;
     align-content: center;
@@ -333,6 +313,7 @@ div.bandbio {
     text-align: justify;
     margin-bottom:0.5px;
 }
+
 div.aboutimage {
     display:flex;
     flex-direction: column;
@@ -342,6 +323,7 @@ div.aboutimage {
     text-align: justify;
     margin-bottom:0.5px;
 }
+
 /* photos */
 div.photostext {
     display:flex;
@@ -363,6 +345,7 @@ div.connecttext {
     text-align: justify;
     margin-bottom:0.5px;
 }
+
 /* events */
 div.eventstext {
     display:flex;
@@ -373,6 +356,7 @@ div.eventstext {
     text-align: justify;
     margin-bottom:0.5px;
 }
+
 /* store */
 div.storetext {
     display:flex;
@@ -385,12 +369,141 @@ div.storetext {
 }
 
 
+/* *********** *//* JAVASCRIPT CONNECTIONS *//* *********** */
+
+/* photos */
+        /*********** square photos with js ***********/
+div.squarediv1 {
+    display:none; 
+    width:fit-content;
+    align-content: center;
+}
+
+img#square1 {
+
+    width:311px;
+    padding-top:111px;
+    padding-left:155px;
+    margin-top:1px;
+    margin-bottom:22px;
+}
+div.squarediv2 {
+    display:none; 
+    width:fit-content;
+    align-content: center;
+}
+
+img#square2 {
+
+    width:311px;
+    align-content: right;
+    padding-top:1px;
+    padding-left:155px;
+    margin-top:1px;
+    margin-bottom:22px;
+}
+
+div.squarediv3 {
+    display:none; 
+    width:fit-content;
+    align-content: center;
+}
+
+img#square3 {
+
+    width:311px;
+    align-content: right;
+    padding-top:1px;
+    padding-left:155px;
+    margin-top:1px;
+    margin-bottom:22px;
+}
+
+div.squarediv4 {
+    display:none; 
+    width:fit-content;
+    align-content: center;
+}
+
+img#square4 {
+
+    width:311px;
+    align-content: right;
+    padding-top:1px;
+    padding-left:155px;
+    margin-top:1px;
+    margin-bottom:1px;
+}
+
+div.squarediv5 {
+    display:none; 
+    width:fit-content;
+    align-content: center;
+}
+
+img#square5 {
+
+    width:311px;
+    align-content: right;
+    padding-top:1px;
+    padding-left:155px;
+    margin-top:1px;
+    margin-bottom:1px;
+}
+
+div.squarediv6 {
+    display:none; 
+    width:fit-content;
+    align-content: center;
+}
+
+img#square6 {
+
+    width:311px;
+    align-content: right;
+    padding-top:1px;
+    padding-left:155px;
+    margin-top:1px;
+    margin-bottom:1px;
+}
+
+div.squarediv7 {
+    display:none; 
+    width:fit-content;
+    align-content: center;
+}
+
+img#square7 {
+
+    width:311px;
+    align-content: right;
+    padding-top:1px;
+    padding-left:155px;
+    margin-top:1px;
+    margin-bottom:1px;
+}
+
+div.squarediv8 {
+    display:none; 
+    width:fit-content;
+    align-content: center;
+}
+
+img#square8 {
+
+    width:311px;
+    align-content: right;
+    padding-top:1px;
+    padding-left:155px;
+    margin-top:1px;
+    margin-bottom:1px;
+}
 
 
-
-
-
-/* subliminal symbol flashes */
+ /* *********** *//* SUBLIMINAL WITH JS */ /* *********** */
+ 
+ /* about */
+    /*********** symbol flashes ***********/
 div.flashes1 {
     visibility:hidden;
     position:fixed;
