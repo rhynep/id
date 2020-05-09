@@ -14,7 +14,7 @@ function OnMouseMove(flashes1, flashes2) {
 }
 
 subliminal1 = document.getElementById("flashesA", "flashesB"); 
-subliminal1.addEventListener("mouseout", onMouseMove1);     
+subliminal1.addEventListener("mouseout", MouseOut);     
 
 function MouseOut(flashes1, flashes2) {
     flashesA.src = "";
@@ -27,22 +27,22 @@ function MouseOut(flashes1, flashes2) {
 
 
 // javascript photo enlarge
+theSquareDiv = document.getElementById("images");
+theSquare1 = document.getElementById("square1");
+theSquareDiv.addEventListener("click", expandImage);
+theSquare1 = document.getElementById("square1");
 
-myitem = document.getElementById("firsttest"); // gets element by id
-myitem.addEventListener("click", onClick);     // adds event listener so click causes the color to change
-
-function onClick() {                // function added to make color change on click
-    myitem.style.color = "green";
-    myitem.style.fontSize = "2em";
+function expandImage() {
+    if (theSquareDiv.style.position == "") {
+        theSquareDiv.style.position = "absolute";
+        theSquareDiv.style.top = "100";
+        theSquareDiv.style.left = "100";
+        theSquare1.style.width = "auto";
+        theSquare1.src = "https://rhynep.github.io/id/images/square1.png";
+    } 
+    else { // makes it small
+        theSquareDiv.style.position = "";
+        theSquare1.style.width = "";
+    }
 }
-myitem = document.getElementById("firsttest"); // adds event listener: changing text color
-myitem.addEventListener('mouseout', onMouseOut);
-
-function onMouseOut() {
-    myitem.style.color = "";
-    myitem.style.fontSize = "";
-}
-
-
-
 
