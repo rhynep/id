@@ -22,13 +22,42 @@ body {
 
 
  /* use media query to ask how big the viewport is */
-@media (max-width: 750px) { /* these rules take effect when the viewport is small */
+@media (max-width: 350px) { /* these rules take effect when the viewport is small */
     body{
     margin-left: 0px;
     margin-right: 0px;
+   
     }
 }
-      
+@media (min-width: 350px) { /* larger viewport rules*/
+    body {
+    margin-right:33px;
+    margin-left:33px; 
+    }
+
+
+@media screen and (orientation: portrait) { /* portrait/landscape rules */
+        body {
+            font-weight: bold;
+            color:magenta;
+        }
+        div.nav {
+            display:flex;
+            flex-direction: column;
+            position:fixed;
+            top:11%;
+            margin-bottom:1px;
+            margin-top:11%;
+            margin-left:3%;
+            font-size:1.2em;
+            font-family:'Special Elite', 'Saira', Arial, Helvetica, sans-serif;
+            color:#e9d62a;
+            text-align: left;
+            justify-content: space-between;
+            line-height:0.7em;    
+        }
+        
+    }      
 
 
 /* links */
@@ -167,7 +196,8 @@ img#logoname {
     flex-direction: row;
     float:center;
     position:fixed;
-    left:44%;
+    left:25%;
+    right:25%;
     bottom: 3px;
     text-align: center;
     align-content: center;   
@@ -332,10 +362,13 @@ div.storetext {
 
 /* subliminal symbol flashes */
 div.flashes1 {
+    visibility:hidden;
     position:fixed;
     color:black;
     margin-left:11%;
     margin-top:11%;
+    transition-property:visibility;
+    transition-duration: 1s;
 }
 
 div.flashes2 {
@@ -352,4 +385,8 @@ div.flashes3 {
     margin-left:1%;
     margin-top:33%;
 }
+
+
+
+
 
