@@ -31,8 +31,8 @@ body {
 }
 @media (min-width: 350px) { /* larger viewport rules*/
     body {
-    margin-right:33px;
-    margin-left:33px; 
+    margin-right:5px;
+    margin-left:5px; 
     }
 
 
@@ -45,9 +45,9 @@ body {
             display:flex;
             flex-direction: column;
             position:fixed;
-            top:11%;
-            margin-bottom:1px;
             margin-top:11%;
+            margin-bottom:1px;
+            height:111px;
             margin-left:3%;
             font-size:1.2em;
             font-family:'Special Elite', 'Saira', Arial, Helvetica, sans-serif;
@@ -130,7 +130,7 @@ div.nav {
     position:fixed;
     padding-top:9%;
     margin-bottom:1px;
-    margin-top:7%;
+    top:22px;
     margin-left:3%;
     font-size:1.2em;
     font-family:'Special Elite', 'Saira', Arial, Helvetica, sans-serif;
@@ -181,12 +181,21 @@ img#logoname {
     left:11px;
     top:11px;
     opacity: 92%;
+    width:211px;
+   }
+
+   img#idwhite {
+    position:fixed;
+    align-content:center;
+    right:3%;
+    top:11px;
+    width:211px;
    }
 
         /* band logo */
     img#logosymbol {
     position:fixed;
-    right:11px;
+    right:211px;
     top:11px;
 } 
 
@@ -217,11 +226,7 @@ img#aboutbandimage {
     left:33%;
 }
 
-img#idwhite {
-    position:fixed;
-    left:33%;
-    top:22px;
-}
+
 /* photos */
 /* connect */
 /* events */
