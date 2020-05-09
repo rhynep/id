@@ -230,6 +230,8 @@ img#aboutbandimage {
 
 
 /* photos */
+    /* in javascript*/
+
 /* connect */
 /* events */
 /* store */
@@ -268,7 +270,7 @@ div.musictext {
     text-align: justify;
     margin-bottom:0.5px;
 }
-        /*********** list of songs ***********/
+                        /*********** list of songs ***********/
 audio#song1 {
     display:flex;
     align-items:right;
@@ -306,7 +308,7 @@ div.videostext {
     text-align: justify;
     margin-bottom:0.5px;
 }
-        /*********** list of videos ***********/
+                        /*********** list of videos ***********/
 div.endlessvideo {
     display:flex;
     align-content: center;
@@ -391,25 +393,9 @@ div.storetext {
 
 /* photos */
         /*********** square photos with js ***********/
-        section#squarez {
-            display:flex;
-        }
 
-div.squarediv {
-display:none; 
-width:fit-content;
-align-content: center;
-}
 
-img#square {
-    display:flex;
-    flex-direction: row;
-    width:311px;
-    padding-top:111px;
-    padding-left:155px;
-    margin-top:1px;
-    margin-bottom:22px;
-}
+
 div.squarediv1 {
     display:none; 
     width:fit-content;
@@ -543,7 +529,21 @@ img#square8 {
     margin-top:1px;
     margin-bottom:1px;
 }
-
+div.squarediv {
+    display:none; 
+    width:fit-content;
+    align-content: center;
+    }
+    
+img#square {
+    display:flex;
+    flex-direction: row;
+    width:311px;
+    padding-top:111px;
+    padding-left:155px;
+    margin-top:1px;
+    margin-bottom:22px;
+    }
 
  /* *********** *//* SUBLIMINAL WITH JS */ /* *********** */
  
