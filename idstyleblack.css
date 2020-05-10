@@ -598,3 +598,11 @@ div.flashes2 {
 
 
 }
+
+/* falling flowers for desktop view */
+image#flower1 {
+    display:flex;
+    position:absolute;
+    bottom:11px;
+    top:333px;
+}
