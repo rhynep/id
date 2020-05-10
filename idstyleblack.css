@@ -286,7 +286,7 @@ audio#song1 {
             h3#thebandname {
                 display:flex;
                 margin-left:33%;
-                padding-top:111px;
+                padding-top:122px;
             }
 
             h2#songtitle1 {
@@ -297,6 +297,7 @@ audio#song1 {
     
 audio#song2 {
     display:flex;
+    flex-direction: row;
     align-items:right;
     padding-left:199px;
 }
@@ -307,6 +308,7 @@ audio#song2 {
 
 audio#song3 {
     display:flex;
+    flex-direction: row;
     align-items:right;
     padding-left:199px;
 }
