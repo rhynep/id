@@ -356,7 +356,7 @@ div.videostext {
                 display:flex;
                 align-content: center;
                 padding-left:155px;
-                padding-top:133px;
+                padding-top:144px;
                 margin-bottom:0.5px;
             }
 
@@ -458,8 +458,8 @@ img#square1 {
     display:flex;
     flex-direction: row;
     width:311px;
-    padding-top:111px;
-    padding-left:155px;
+    padding-top:133px;
+    padding-left:177px;
     margin-top:1px;
     margin-bottom:22px;
 }
@@ -475,7 +475,7 @@ img#square2 {
     width:311px;
     align-content: right;
     padding-top:111px;
-    padding-left:155px;
+    padding-left:177px;
     margin-top:1px;
     margin-bottom:22px;
 }
@@ -492,7 +492,7 @@ img#square3 {
     width:311px;
     align-content: right;
     padding-top:111px;
-    padding-left:155px;
+    padding-left:177px;
     margin-top:1px;
     margin-bottom:22px;
 }
@@ -509,7 +509,7 @@ img#square4 {
     width:311px;
     align-content: right;
     padding-top:111px;
-    padding-left:155px;
+    padding-left:177px;
     margin-top:1px;
     margin-bottom:1px;
 }
@@ -526,7 +526,7 @@ img#square5 {
     width:311px;
     align-content: right;
     padding-top:111px;
-    padding-left:155px;
+    padding-left:177px;
     margin-top:1px;
     margin-bottom:1px;
 }
@@ -543,7 +543,7 @@ img#square6 {
     width:311px;
     align-content: right;
     padding-top:111px;
-    padding-left:155px;
+    padding-left:177px;
     margin-top:1px;
     margin-bottom:1px;
 }
@@ -560,7 +560,7 @@ img#square7 {
     width:311px;
     align-content: right;
     padding-top:111px;
-    padding-left:155px;
+    padding-left:177px;
     margin-top:1px;
     margin-bottom:1px;
 }
@@ -577,7 +577,7 @@ img#square8 {
     width:311px;
     align-content: right;
     padding-top:111px;
-    padding-left:155px;
+    padding-left:177px;
     margin-top:1px;
     margin-bottom:1px;
 }
@@ -592,7 +592,7 @@ img#square {
     flex-direction: row;
     width:311px;
     padding-top:111px;
-    padding-left:155px;
+    padding-left:177px;
     margin-top:1px;
     margin-bottom:22px;
     }
