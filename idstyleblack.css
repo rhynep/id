@@ -130,7 +130,7 @@ div.nav {
     display:flex;
     flex-direction: column;
     position:absolute;
-    padding-top:133px;
+    padding-top:155px;
     margin-bottom:1px;
     top:22px;
     margin-left:3%;
@@ -193,6 +193,7 @@ img#logoname {
     right:3%;
     top:11px;
     width:177px;
+    opacity: 77%;
    }
 
         /* alt band logo */
