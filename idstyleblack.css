@@ -284,7 +284,7 @@ div.musictext {
     right:5%;
     font-family:'Saira', Arial, Helvetica, sans-serif;
     font-size:1em; 
-    text-align: right;
+    text-align: left;
     margin-bottom:0.5px;
 }
                         /*********** list of songs ***********/
@@ -434,23 +434,65 @@ div.photostext {
 div.connecttext1 {
     display:flex;
     flex-direction: column;
-    position: absolute;
+    position: fixed;
     font-family:'Saira', Arial, Helvetica, sans-serif;
     font-size:1em; 
-    padding-top:155px;
-    padding-left:77px;
+    text-align: left;
+    margin-bottom:0.5px;
+    padding-top: 144px;
 }
-            p#connect1 {/* instagram */
-                display:flex;
-                flex-direction: column;
-                position: absolute;
-                width:311px;
-                padding-top:199px;
-                padding-bottom:7px;
-                margin-top:1px;
-                font-family:'Saira', Arial, Helvetica, sans-serif;
-                font-size:1em; 
-            }
+
+        h2#socialmedia {
+            display:flex;
+            background-color: grey;
+            color:black;
+            padding-left:11px;
+            font-size:0.9em;
+            line-height: 1.5em;
+        
+    }
+            
+                h3#sminsta {
+                    display:flex;
+                    padding-left:11px;
+                    color:white;
+                    font-size:1em;
+                    padding-top:1px;
+                }
+            
+                h3#smyoutube {
+                    display:flex;
+                    padding-left:11px;
+                    color:white;
+                    font-size:1em;
+                    padding-top:1px;
+                }
+ 
+                h3#smtwitter {
+                    display:flex;
+                    padding-left:11px;
+                    color:white;
+                    font-size:1em;
+                    padding-top:1px;
+                }
+                
+  
+                h3#smfacebook {
+                    display:flex;
+                    padding-left:11px;
+                    color:white;
+                    font-size:1em;
+                    padding-top:1px;
+                }
+            
+                h3#smbandcamp {
+                    display:flex;
+                    padding-left:11px;
+                    color:white;
+                    font-size:1em;
+                    padding-top:1px;
+                }
+
 
 /* events */
 div.eventstext {
