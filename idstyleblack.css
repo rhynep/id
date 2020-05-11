@@ -211,9 +211,9 @@ img#logoname {
     opacity:11%;
 } 
         /* desktop view band image*/
-    img#faces {
+        img#faces {
             position:fixed;
-            right:155px;
+            right:11px;
             bottom:44px;
             width:555px;
             opacity:33%;
