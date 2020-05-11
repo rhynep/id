@@ -179,25 +179,24 @@ function expandImage() {
 // subliminal symbol flashes 
 
 // red flash
-subliminal1 = document.getElementById("flashesA", "flashesB"); 
-subliminal1.addEventListener("mousemove", onMouseMove);    
+//subliminal1 = document.getElementById("flashesA", "flashesB"); 
+//subliminal1.addEventListener("mouseout", onMouseMove);    
 
-function OnMouseMove(flashes1, flashes2) {
-    flashesA.src = "http://rhynep.github.io/id/images/id_red.png";
-    flashesA.style.width = "auto";
+//function OnMouseMove(flashes1, flashes2) {
+    // flashesA.src = "http://rhynep.github.io/id/images/id_red.png";
+    // flashesA.style.width = "auto";
 
-    flashesB.src = "http://rhynep.github.io/id/images/id_pink.png";
-    flashesB.style.width = "auto";
+    // flashesB.src = "http://rhynep.github.io/id/images/id_pink.png";
+    // flashesB.style.width = "auto";
 
-}
+// }
 
-subliminal1 = document.getElementById("flashesA", "flashesB"); 
-subliminal1.addEventListener("mouseout", MouseOut);     
-
-function MouseOut(flashes1, flashes2) {
-    flashesA.src = "";
-    flashesB.src = "";
-}
+// subliminal1 = document.getElementById("flashesA", "flashesB"); 
+// subliminal1.addEventListener("mouseout", MouseOut);     
+// function MouseOut(flashes1, flashes2) {
+    // flashesA.src = "";
+    // flashesB.src = "";
+// }
 
 
 
