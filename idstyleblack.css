@@ -31,6 +31,9 @@ body {
          img#theband {
             visibility: hidden;
         }
+        img#facesmain {
+            visibility: hidden;
+        }
 }
 @media (min-width: 350px) { /* larger viewport rules*/
     body {
@@ -211,15 +214,22 @@ img#logoname {
     opacity:11%;
 } 
         /* desktop view band image*/
-        img#faces {
+        img#facesmain {
             position:fixed;
             right:11px;
             bottom:44px;
-            height:599px;
+            width:444px;
             opacity:33%;
     }
 
+                img#faces {
+                    position:fixed;
+                    right:11px;
+                    bottom:44px;
+                    width:444px;
+                    opacity:33%;
 
+                }
         /* footer */
 #footer {
     display:flex;
