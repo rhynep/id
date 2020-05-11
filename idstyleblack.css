@@ -22,12 +22,15 @@ body {
 
 /* *********** *//* MEDIA QUERY *//* *********** */
 /* use media query to ask how big the viewport is */
-@media (max-width: 350px) { /* these rules take effect when the viewport is small */
+@media (max-width: 950px) { /* these rules take effect when the viewport is small */
     body{
     margin-left: 0px;
     margin-right: 0px;
-   
+         /* desktop view band image*/
     }
+         img#theband {
+            visibility: hidden;
+        }
 }
 @media (min-width: 350px) { /* larger viewport rules*/
     body {
@@ -59,7 +62,7 @@ body {
         
     }      
 
-
+   
 /* *********** *//* LINKS *//* *********** */
 a:link{
     color:grey;
@@ -204,6 +207,8 @@ img#logoname {
     position:fixed;
     right:11px;
     bottom:11px;
+    width:777px;
+    opacity:11%;
 } 
 
         /* footer */
@@ -285,6 +290,7 @@ audio#song1 {
 }
             img#songimage1 {
                display:flex;
+               padding-top:144px;
                padding-left:277px;
                top:11px;
 
@@ -293,7 +299,7 @@ audio#song1 {
             h3#thebandname {
                 display:flex;
                 padding-left:88px;
-                padding-top:144px;
+               
             }
 
             h2#songtitle1 {
