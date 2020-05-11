@@ -533,7 +533,7 @@ div.teediv3 {
                     flex-direction: row;
                     position: absolute;
                     width:311px;
-                    padding-left:33px;
+                    padding-left:133px;
                     margin-top:1px;
                     margin-bottom:22px;
                     }
@@ -559,11 +559,11 @@ div.teediv4 {
                     flex-direction: row;
                     position: absolute;
                     width:311px;
-                    padding-left:33px;
+                    padding-left:133px;
                     margin-top:1px;
                     margin-bottom:22px;
                     }
-                    
+
 /* photos */
         /*********** square photos with js ***********/
 
