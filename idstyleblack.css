@@ -22,7 +22,7 @@ body {
 
 /* *********** *//* MEDIA QUERY *//* *********** */
 /* use media query to ask how big the viewport is */
-@media (max-width: 950px) { /* these rules take effect when the viewport is small */
+@media (max-width: 999px) { /* these rules take effect when the viewport is small */
     body{
     margin-left: 0px;
     margin-right: 0px;
@@ -207,11 +207,11 @@ img#logoname {
 
         /* desktop view band image*/
     img#theband {
-    position:fixed;
-    right:11px;
-    bottom:11px;
-    width: 555;
-    opacity:11%;
+        position: fixed;
+        right:11px;
+        bottom:44px;
+        height:444px;
+        opacity:33%;
 } 
         /* desktop view band image*/
         img#facesmain {
@@ -219,17 +219,8 @@ img#logoname {
             right:11px;
             bottom:44px;
             width:444px;
-            opacity:33%;
-    }
-
-                img#faces {
-                    position:fixed;
-                    right:11px;
-                    bottom:44px;
-                    width:444px;
-                    opacity:33%;
-
-                }
+            opacity:33%;           
+ }
         /* footer */
 #footer {
     display:flex;
