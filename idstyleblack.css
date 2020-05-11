@@ -456,7 +456,7 @@ div.storetext {
     padding-top:144px;
     padding-left:155px;
 }
-/* *********** *//* JAVASCRIPT CONNECTIONS *//* *********** */
+                            /* *********** *//* JAVASCRIPT CONNECTIONS *//* *********** */
 
 /* store javascript */
 
@@ -485,6 +485,85 @@ div.teediv1 {
                     margin-top:1px;
                     margin-bottom:22px;
                     }
+
+div.teediv2 {
+    display:none; 
+    flex-direction: row;
+    width:fit-content;
+    align-content: center;
+}
+                img#tee2 {
+                    display:flex;
+                    flex-direction: row;
+                    width:311px;
+                    padding-top:133px;
+                    padding-left:177px;
+                    margin-top:1px;
+                    margin-bottom:22px;
+                }
+                
+                div.tee2info {
+                    display:flex;
+                    flex-direction: row;
+                    position: absolute;
+                    width:311px;
+                    padding-left:33px;
+                    margin-top:1px;
+                    margin-bottom:22px;
+                    }
+
+div.teediv3 {
+    display:none; 
+    flex-direction: row;
+    width:fit-content;
+    align-content: center;
+}
+                img#tee3 {
+                    display:flex;
+                    flex-direction: row;
+                    width:311px;
+                    padding-top:133px;
+                    padding-left:177px;
+                    margin-top:1px;
+                    margin-bottom:22px;
+                }
+                
+                div.tee3info {
+                    display:flex;
+                    flex-direction: row;
+                    position: absolute;
+                    width:311px;
+                    padding-left:33px;
+                    margin-top:1px;
+                    margin-bottom:22px;
+                    }
+
+div.teediv4 {
+    display:none; 
+    flex-direction: row;
+    width:fit-content;
+    align-content: center;
+}
+                img#tee4 {
+                    display:flex;
+                    flex-direction: row;
+                    width:311px;
+                    padding-top:133px;
+                    padding-left:177px;
+                    margin-top:1px;
+                    margin-bottom:22px;
+                }
+                
+                div.tee4info {
+                    display:flex;
+                    flex-direction: row;
+                    position: absolute;
+                    width:311px;
+                    padding-left:33px;
+                    margin-top:1px;
+                    margin-bottom:22px;
+                    }
+                    
 /* photos */
         /*********** square photos with js ***********/
 
