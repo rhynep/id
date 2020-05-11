@@ -199,7 +199,7 @@ img#logoname {
     align-content:center;
     right:5px;
     width:177px;
-    opacity: 77%;
+    opacity: 55%;
    }
 
         /* desktop view band image*/
@@ -207,9 +207,18 @@ img#logoname {
     position:fixed;
     right:11px;
     bottom:11px;
-    width:777px;
-    opacity:11%;
+    width:444;
+    opacity:33%;
 } 
+        /* desktop view band image*/
+    img#faces {
+    position:fixed;
+    right:11px;
+    bottom:33px;
+    width:555px;
+    opacity:33%;
+} 
+
 
         /* footer */
 #footer {
