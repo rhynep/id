@@ -212,8 +212,11 @@ img#logoname {
 } 
         /* desktop view band image*/
     img#faces {
-        float: center;
-    position:fixed;
+            position:fixed;
+            right:155px;
+            bottom:44px;
+            width:555px;
+            opacity:33%;
     }
 
 
