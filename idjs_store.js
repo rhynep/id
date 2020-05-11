@@ -37,3 +37,41 @@ function expandImage2() {
         theTee2.style.width = "";
     }
 }
+
+teeDiv3 = document.getElementById("teediv3");
+theTee3 = document.getElementById("tee3");
+teeDiv3.addEventListener("click", expandImage3);
+theTee3 = document.getElementById("tee3");
+
+function expandImage3() {
+    if (teeDiv3.style.position == "") {
+        teeDiv3.style.position = "absolute";
+        teeDiv3.style.top = "100";
+        teeDiv3.style.left = "100";
+        theTee3.style.width = "auto";
+        theTee3.src = "https://rhynep.github.io/id/images/tee3.png";
+    } 
+    else { // makes it small
+        teeDiv3.style.position = "";
+        theTee3.style.width = "";
+    }
+}
+
+teeDiv4 = document.getElementById("teediv4");
+theTee4 = document.getElementById("tee4");
+teeDiv4.addEventListener("click", expandImage4);
+theTee4 = document.getElementById("tee4");
+
+function expandImage4() {
+    if (teeDiv4.style.position == "") {
+        teeDiv4.style.position = "absolute";
+        teeDiv4.style.top = "100";
+        teeDiv4.style.left = "100";
+        theTee4.style.width = "auto";
+        theTee4.src = "https://rhynep.github.io/id/images/tee4.png";
+    } 
+    else { // makes it small
+        teeDiv4.style.position = "";
+        theTee4.style.width = "";
+    }
+}
