@@ -14,7 +14,7 @@ body {
     color:white;
     background-color:black;
     font-size:1.3em;
-    font-family:'Special Elite', Arial, Helvetica, sans-serif;
+    font-family:'PT Sans Narrow', Arial, Helvetica, sans-serif;
     margin-left:7px;
     margin-right:7px;
   
@@ -55,7 +55,7 @@ body {
             margin-bottom:1px;
             height:111px;
             margin-left:3%;
-            font-size:1.2em;
+            font-size:0.8em;
             font-family:'Special Elite', 'Saira', Arial, Helvetica, sans-serif;
             color:#e9d62a;
             text-align: left;
@@ -94,9 +94,6 @@ h1 {
     color:white;
     font-family:'Special Elite', 'Arial Narrow Bold', sans-serif;
     font-size:1em;
-    margin-right:3%;
-    margin-bottom:0.5em; 
-    margin-top:0.5em;
     padding-left:155px;
 }
 
@@ -143,7 +140,7 @@ div.nav {
     margin-bottom:1px;
     top:22px;
     margin-left:3%;
-    font-size:1.2em;
+    font-size:1em;
     font-family:'Special Elite', 'Saira', Arial, Helvetica, sans-serif;
     color:#e9d62a;
     text-align: left;
@@ -294,64 +291,78 @@ div.musictext {
 audio#song1 {
     display:flex;
     flex-direction: row;
-    align-items:center;
-    padding-left:199px;
+    align-items:left;
+    padding-left:155px;
 }
+    h3#thebandname {
+        display:flex;
+        padding-left:88px;
+        background-color: grey;
+        padding-top:5px;
+        color:black;
+        padding-left:11px;
+        font-size:0.9em;
+}
+
             img#songimage1 {
                display:flex;
-               padding-top:144px;
-               padding-left:277px;
+               padding-top:155px;
+               padding-left:188px;
                top:11px;
 
             }
-
-            h3#thebandname {
-                display:flex;
-                padding-left:88px;
-               
-            }
-
+            
             h2#songtitle1 {
                 display:flex;
-                padding-left:144px;
+                padding-left:11px;
+                color:grey;
+                font-size:1em;
             }
 
     
 audio#song2 {
     display:flex;
     flex-direction: row;
-    align-items:right;
-    padding-left:199px;
+    align-items:left;
+   padding-left:155px;
 
             }
             img#songimage2 {
             display:flex;
-            padding-left:277px;
+            padding-left:188px;
             top:99px;
 
             }
             h2#songtitle2 {
                 display:flex;
-                padding-left:133px;
+                padding-left:11px;
+                color:grey;
+                font-size:1em;
             }
 
 audio#song3 {
     display:flex;
     flex-direction: row;
-    align-items:right;
-    padding-left:199px;
+    align-items:left;
+    padding-left:155px;
+    
+ 
             }
 
             img#songimage3 {
                 display:flex;
-                padding-left:277px;
-              padding-bottom:1%;
+                padding-left:188px;
+                padding-bottom:1%;
                 top:444px;
+                right:33px;
+                align-items:right;
             }
 
             h2#songtitle3 {
                 display:flex;
-                padding-left:155px;
+                padding-left:11px;
+                color:grey;
+                font-size:1em;
             }
 
 
@@ -420,16 +431,26 @@ div.photostext {
 }
 
 /* connect */
-div.connecttext {
+div.connecttext1 {
     display:flex;
-    position: fixed;
-    right:5%;
     flex-direction: column;
+    position: absolute;
     font-family:'Saira', Arial, Helvetica, sans-serif;
     font-size:1em; 
-    text-align: right;
-    margin-bottom:0.5px;
+    padding-top:155px;
+    padding-left:77px;
 }
+            p#connect1 {/* instagram */
+                display:flex;
+                flex-direction: column;
+                position: absolute;
+                width:311px;
+                padding-top:199px;
+                padding-bottom:7px;
+                margin-top:1px;
+                font-family:'Saira', Arial, Helvetica, sans-serif;
+                font-size:1em; 
+            }
 
 /* events */
 div.eventstext {
@@ -578,7 +599,7 @@ div.squarediv1 {
             flex-direction: row;
             width:311px;
             padding-top:133px;
-            padding-left:177px;
+            padding-left:155px;
             margin-top:1px;
             margin-bottom:22px;
         }
@@ -595,7 +616,7 @@ div.squarediv2 {
             width:311px;
             align-content: right;
             padding-top:111px;
-            padding-left:177px;
+            padding-left:155px;
             margin-top:1px;
             margin-bottom:22px;
         }
@@ -612,7 +633,7 @@ div.squarediv3 {
             width:311px;
             align-content: right;
             padding-top:111px;
-            padding-left:177px;
+            padding-left:155px;
             margin-top:1px;
             margin-bottom:22px;
         }
@@ -629,7 +650,7 @@ div.squarediv4 {
             width:311px;
             align-content: right;
             padding-top:111px;
-            padding-left:177px;
+            padding-left:155px;
             margin-top:1px;
             margin-bottom:1px;
         }
@@ -646,7 +667,7 @@ div.squarediv5 {
             width:311px;
             align-content: right;
             padding-top:111px;
-            padding-left:177px;
+            padding-left:155px;
             margin-top:1px;
             margin-bottom:1px;
         }
@@ -663,7 +684,7 @@ div.squarediv6 {
             width:311px;
             align-content: right;
             padding-top:111px;
-            padding-left:177px;
+            padding-left:155px;
             margin-top:1px;
             margin-bottom:1px;
         }
@@ -680,7 +701,7 @@ div.squarediv7 {
             width:311px;
             align-content: right;
             padding-top:111px;
-            padding-left:177px;
+            padding-left:155px;
             margin-top:1px;
             margin-bottom:1px;
         }
@@ -697,7 +718,7 @@ div.squarediv8 {
             width:311px;
             align-content: right;
             padding-top:111px;
-            padding-left:177px;
+            padding-left:155px;
             margin-top:1px;
             margin-bottom:1px;
         }
@@ -713,7 +734,7 @@ div.squarediv {
             flex-direction: row;
             width:311px;
             padding-top:111px;
-            padding-left:177px;
+            padding-left:155px;
             margin-top:1px;
             margin-bottom:22px;
             }
@@ -743,7 +764,7 @@ div.flashes2 {
 
 }
 
-/* falling flowers */
+/* falling flower images */
 img#flower1 {
     position:fixed;
     top:22px;
