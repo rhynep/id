@@ -292,7 +292,7 @@ audio#song1 {
     display:flex;
     flex-direction: row;
     align-items:left;
-    padding-left:155px;
+    padding-left:144px;
 }
     h3#thebandname {
         display:flex;
@@ -307,7 +307,7 @@ audio#song1 {
             img#songimage1 {
                display:flex;
                padding-top:155px;
-               padding-left:188px;
+               padding-left:166px;
                top:11px;
 
             }
@@ -324,12 +324,12 @@ audio#song2 {
     display:flex;
     flex-direction: row;
     align-items:left;
-   padding-left:155px;
+    padding-left:144px;
 
             }
             img#songimage2 {
             display:flex;
-            padding-left:188px;
+            padding-left:166px;
             top:99px;
 
             }
@@ -344,14 +344,14 @@ audio#song3 {
     display:flex;
     flex-direction: row;
     align-items:left;
-    padding-left:155px;
+    padding-left:144px;
     
  
             }
 
             img#songimage3 {
                 display:flex;
-                padding-left:188px;
+                padding-left:166px;
                 padding-bottom:1%;
                 top:444px;
                 right:33px;
