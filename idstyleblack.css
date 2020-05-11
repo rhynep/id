@@ -315,7 +315,7 @@ audio#song1 {
             h2#songtitle1 {
                 display:flex;
                 padding-left:11px;
-                color:grey;
+                color:white;
                 font-size:1em;
             }
 
@@ -336,7 +336,7 @@ audio#song2 {
             h2#songtitle2 {
                 display:flex;
                 padding-left:11px;
-                color:grey;
+                color:white;
                 font-size:1em;
             }
 
@@ -361,7 +361,7 @@ audio#song3 {
             h2#songtitle3 {
                 display:flex;
                 padding-left:11px;
-                color:grey;
+                color:white;
                 font-size:1em;
             }
 
