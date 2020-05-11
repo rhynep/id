@@ -91,6 +91,7 @@ h1 {
     text-align: right;
     margin-right:3%;
     margin-bottom:0.5em; 
+    margin-top:0.5em;
     padding-left:155px;
 }
 
@@ -98,7 +99,8 @@ h2 {
     color:white;
     font-family:'PT Sans Narrow', 'Arial Narrow Bold', sans-serif;
     font-size:1.3em;
-    margin-bottom:0.5em;
+    margin-bottom:0.3em;
+    margin-top:0.3em;
     margin-left:155px;
 }
 
@@ -107,7 +109,8 @@ h3 {
     font-family:'Special Elite', sans-serif, Arial, Helvetica, sans-serif;
     font-size:1em;
     font-weight:strong;
-    margin-bottom:0.5em;
+    margin-bottom:0.3em;
+    margin-top:0.3em;
     margin-left: 155px;
 }
 
@@ -190,8 +193,7 @@ img#logoname {
    img#idsymbol {
     position:absolute;
     align-content:center;
-    right:3%;
-    top:11px;
+    right:5px;
     width:177px;
     opacity: 77%;
    }
@@ -262,7 +264,6 @@ div.maintext {
     text-align: right;
 }
 
-
 /* music */
 div.musictext {
     display:flex;
@@ -281,19 +282,22 @@ audio#song1 {
     align-items:center;
     padding-left:199px;
 }
-            image#songimage1 {
-                float: center;
+            img#songimage1 {
+               display:flex;
+               padding-left:277px;
+               top:11px;
+
             }
 
             h3#thebandname {
                 display:flex;
-                margin-left:33%;
+                padding-left:88px;
                 padding-top:122px;
             }
 
             h2#songtitle1 {
                 display:flex;
-                margin-left:33%;
+                padding-left:144px;
             }
 
     
@@ -302,10 +306,17 @@ audio#song2 {
     flex-direction: row;
     align-items:right;
     padding-left:199px;
-}
+
+            }
+            img#songimage2 {
+            display:flex;
+            padding-left:277px;
+            top:99px;
+
+            }
             h2#songtitle2 {
                 display:flex;
-                margin-left:33%;
+                padding-left:133px;
             }
 
 audio#song3 {
@@ -313,10 +324,18 @@ audio#song3 {
     flex-direction: row;
     align-items:right;
     padding-left:199px;
-}
+            }
+
+            img#songimage3 {
+                display:flex;
+                padding-left:277px;
+              padding-bottom:1%;
+                top:444px;
+            }
+
             h2#songtitle3 {
                 display:flex;
-                margin-left:33%;
+                padding-left:155px;
             }
 
 
