@@ -130,7 +130,7 @@ div.nav {
     display:flex;
     flex-direction: column;
     position:absolute;
-    padding-top:122px;
+    padding-top:133px;
     margin-bottom:1px;
     top:22px;
     margin-left:3%;
@@ -188,11 +188,11 @@ img#logoname {
    }
         /* band symbol */
    img#idsymbol {
-    position:fixed;
+    position:absolute;
     align-content:center;
     right:3%;
     top:11px;
-    width:211px;
+    width:177px;
    }
 
         /* alt band logo */
@@ -335,7 +335,7 @@ div.videostext {
                 display:flex;
                 align-content: center;
                 padding-left:155px;
-                padding-top:111px;
+                padding-top:133px;
                 margin-bottom:0.5px;
             }
 
@@ -343,7 +343,7 @@ div.videostext {
                 display:flex;
                 align-content: center;
                 padding-left:155px;
-                padding-top:111px;
+                padding-top:33px;
                 margin-bottom:0.5px;
             }
 
@@ -361,10 +361,11 @@ div.bandbio {
 div.aboutimage {
     display:flex;
     flex-direction: column;
-    padding-top:111px;
+    position:absolute;
+    padding-top:px;
     padding-left:155px;
     right:2%;
-    font-family:'Saira', Arial, Helvetica, sans-serif;
+    font-family:'Saira', 88, Helvetica, sans-serif;
     font-size:1em; 
     text-align: right;
     margin-bottom:0.5px;
@@ -625,12 +626,12 @@ img#flower2 {
 img#flower3 {
     position:absolute;
     bottom:477px;
-    right:577px;
-    bottom:11px;
+    right:477px;
+    bottom:44px;
     padding-bottom:1%;
     margin-bottom:5px;
     opacity: 0.9;
-    transform: rotate(55deg) scale(0.9);
+    transform: rotate(88deg) scale(0.9);
 }
 
 img#flower4 {
