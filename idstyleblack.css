@@ -307,7 +307,7 @@ audio#song1 {
             img#songimage1 {
                display:flex;
                padding-top:155px;
-               padding-left:166px;
+               padding-left:155px;
                top:11px;
 
             }
@@ -329,7 +329,7 @@ audio#song2 {
             }
             img#songimage2 {
             display:flex;
-            padding-left:166px;
+            padding-left:155px;
             top:99px;
 
             }
@@ -351,7 +351,7 @@ audio#song3 {
 
             img#songimage3 {
                 display:flex;
-                padding-left:166px;
+                padding-left:155px;
                 padding-bottom:1%;
                 top:444px;
                 right:33px;
