@@ -46,16 +46,6 @@ body {
     }
 
 
-@media screen and (orientation: portrait) { /* portrait/landscape rules */
-        body {
-            font-weight: bold;
-            font-size:1em;
-            
-        }
-
-        
-    }      
-
    
 /* *********** *//* LINKS *//* *********** */
 a:link{
