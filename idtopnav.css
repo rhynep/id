@@ -552,7 +552,7 @@ div.eventstext {
         text-align: center;
         margin-bottom:0.5px;
         padding-top: 255px;
-        padding-left:5%;
+       
     }
         h3#skeletons {
             display:flex;
@@ -561,8 +561,17 @@ div.eventstext {
             border:dotted white 1px;
             width:222px;
             line-height:2em;
-            text-align: center;
+            text-align: left;
         }
+        h2#skeletons1 {
+            display:flex;
+            flex-direction: column;
+            font-size:1.5em;
+            width:222px;
+            line-height:2em;
+            text-align: left;
+        }
+
 
 /* store */
 div.storetext {
