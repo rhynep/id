@@ -47,7 +47,7 @@ body {
 @media screen and (orientation: portrait) { /* portrait/landscape rules */
         body {
             font-weight: bold;
-            
+           
         }
         div.nav {
             display:flex;
@@ -150,6 +150,7 @@ div.nav {
     line-height:0.7em;    
 }
 
+
 /* nav labels */
 a#about {
     color: #de5004;
@@ -196,7 +197,7 @@ img#logoname {
         /* band symbol */
    img#idsymbol {
     position:absolute;
-    align-content:center;
+    align-content:right;
     right:3px;
     width:177px;
     opacity: 44%;
@@ -208,7 +209,7 @@ img#logoname {
         right:11px;
         bottom:44px;
         height:444px;
-        opacity:88%;
+        opacity:55%;
 } 
         /* desktop view band image*/
         img#facesmain {
