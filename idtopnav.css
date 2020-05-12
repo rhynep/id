@@ -129,10 +129,10 @@ div.nav {
     font-size:1em;
     font-family:'Special Elite', 'Saira', Arial, Helvetica, sans-serif;
     color:grey;
-    left:66px;
     right:22%;
+    left:11%;
     top:155px;
-    align-items:left;
+    align-items:center;
     width:399px;
     justify-content: space-around;
    
