@@ -37,7 +37,6 @@ body {
 }
 
 
-
 @media (min-width: 350px) { /* larger viewport rules*/
     body {
     margin-right:5px;
@@ -48,7 +47,7 @@ body {
 @media screen and (orientation: portrait) { /* portrait/landscape rules */
         body {
             font-weight: bold;
-            color:magenta;
+            
         }
         div.nav {
             display:flex;
@@ -150,7 +149,6 @@ div.nav {
     justify-content: space-between;
     line-height:0.7em;    
 }
-
 
 /* nav labels */
 a#about {
