@@ -507,15 +507,16 @@ font-size: 0.8em;}
 
 /* events */
 div.eventstext {
-    display:flex;
-    flex-direction: column;
-    position: absolute;
-    right:5%;
-    font-family:'PT Sans Narrow', 'Saira', Arial, Helvetica, sans-serif;
-    font-size:1em; 
-    text-align: right;
-    margin-bottom:0.5px;
-}
+        display:flex;
+        flex-direction: column;
+        position: static;
+        font-family:'Saira', Arial, Helvetica, sans-serif;
+        font-size:1em; 
+        text-align: left;
+        margin-bottom:0.5px;
+        padding-top: 144px;
+        padding-left:55px;
+    }
 
 /* store */
 div.storetext {
