@@ -26,6 +26,8 @@ body {
     body{
     margin-left: 0px;
     margin-right: 0px;
+    font-size:1em;
+
          /* desktop view band image*/
     }
          img#theband {
@@ -47,23 +49,10 @@ body {
 @media screen and (orientation: portrait) { /* portrait/landscape rules */
         body {
             font-weight: bold;
+            font-size:1em;
             
         }
-        div.nav {
-            display:flex;
-            flex-direction: column;
-            position:fixed;
-            margin-top:11%;
-            margin-bottom:1px;
-            height:111px;
-            margin-left:3%;
-            font-size:0.8em;
-            font-family:'Special Elite', 'Saira', Arial, Helvetica, sans-serif;
-            color:#e9d62a;
-            text-align: left;
-            justify-content: space-between;
-            line-height:0.7em;    
-        }
+
         
     }      
 
@@ -137,12 +126,12 @@ div.nav {
     display:flex;
     flex-direction: column;
     position:absolute;
-    font-size:0.8em;
+    font-size:1em;
     font-family:'Special Elite', 'Saira', Arial, Helvetica, sans-serif;
     color:#e9d62a;
     left:44px;
     right:22%;
-    top:133px;
+    top:144px;
     align-items:left;
     width:399px;
     justify-content: space-around;
@@ -156,7 +145,7 @@ div.nav {
                     line-height: 1.5em;
                     height:33px;
                     background-color: rgb(42, 40, 40);
-                    border:grey dotted 0.5px;
+                    border:rgb(49, 49, 49) dotted 0.5px;
                 }
 
                 a#videosnav {
@@ -165,7 +154,7 @@ div.nav {
                     line-height: 1.5em;
                     height:33px;
                     background-color: rgb(42, 40, 40);
-                    border:grey dotted 0.5px;
+                    border:rgb(49, 49, 49) dotted 0.5px;
                 }
 
                 a#aboutnav {
@@ -174,7 +163,7 @@ div.nav {
                     line-height: 1.5em;
                     height:33px;
                     background-color: rgb(42, 40, 40);
-                    border:grey dotted 0.5px;
+                    border:rgb(49, 49, 49) dotted 0.5px;
                 }
 
                 a#photosnav {
@@ -183,7 +172,7 @@ div.nav {
                     line-height: 1.5em;
                     height:33px;
                     background-color: rgb(42, 40, 40);
-                    border:grey dotted 0.5px;
+                    border:rgb(49, 49, 49) dotted 0.5px;
                 }
                 a#connectnav {
                     margin-right:2px;
@@ -191,7 +180,7 @@ div.nav {
                     line-height: 1.5em;
                     height:33px;
                     background-color: rgb(42, 40, 40);
-                    border:grey dotted 0.5px;
+                    border:rgb(49, 49, 49) dotted 0.5px;
                 }
                 a#eventsnav {
                     margin-right:2px;
@@ -199,7 +188,7 @@ div.nav {
                     line-height: 1.5em;
                     height:33px;
                     background-color: rgb(42, 40, 40);
-                    border:grey dotted 0.5px;
+                    border:rgb(49, 49, 49) dotted 0.5px;
                 }
 
                 a#storenav {
@@ -208,7 +197,7 @@ div.nav {
                     line-height: 1.5em;
                     height:33px;
                     background-color: rgb(42, 40, 40);
-                    border:grey dotted 0.5px;
+                    border:rgb(49, 49, 49) dotted 0.5px;
                 }
                 a#mainnav {
                     margin-right:2px;
@@ -216,17 +205,14 @@ div.nav {
                     line-height: 1.5em;
                     height:33px;
                     background-color: rgb(42, 40, 40);
-                    border:grey dotted 0.5px;
+                    border:rgb(49, 49, 49) dotted 0.5px;
                 }
                                 /* nav spacing */
                                 p#firstline {
                                     margin-bottom: 0.3em;
                                 }
                                
-                                p#secondline {
-                                    margin-top:0.3em;
-                                }
-
+                            
 /* nav labels */
 a#about {
     color: #de5004;
