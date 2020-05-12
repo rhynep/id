@@ -236,12 +236,12 @@ img#logoname {
 /* videos */    
 
 /* about */
-img#aboutbandimage {
-    position: fixed;
-    align-content: center;
-    padding-top:111px;
-    padding-left:155px;
-    right:22%;
+img#aboutimage {
+    display: flex;
+    position: static;
+    top:55px;
+    left:100px;
+
 }
 
 
@@ -408,19 +408,6 @@ div.bandbio {
     margin-bottom:0.5px;
 }
 
-div.aboutimage {
-    display:flex;
-    flex-direction: column;
-    position:absolute;
-    padding-top:px;
-    padding-left:155px;
-    right:2%;
-    font-family:'Saira', 88, Helvetica, sans-serif;
-    font-size:1em; 
-    text-align: right;
-    margin-bottom:0.5px;
-}
-
 /* photos */
 div.photostext {
     display:flex;
@@ -518,6 +505,15 @@ div.eventstext {
         padding-top: 144px;
         padding-left:55px;
     }
+        h3#skeletons {
+            display:flex;
+            flex-direction: column;
+            font-size:1.5em;
+            border:dotted white 1px;
+            width:222px;
+            line-height:2em;
+            text-align: center;
+        }
 
 /* store */
 div.storetext {
