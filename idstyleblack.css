@@ -286,6 +286,7 @@ div.musictext {
     font-size:1em; 
     text-align: left;
     margin-bottom:0.5px;
+    width:299px;
 }
                         /*********** list of songs ***********/
 audio#song1 {
