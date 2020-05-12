@@ -130,11 +130,11 @@ div.nav {
     font-family:'Special Elite', 'Saira', Arial, Helvetica, sans-serif;
     color:grey;
     right:22%;
-    left:5%;
+    left:7px;
     top:155px;
     align-items:center;
     width:399px;
-    justify-content: space-around;
+    justify-content: space-between;
    
      
 }
