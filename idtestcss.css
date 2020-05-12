@@ -135,22 +135,24 @@ h5 {
 /* *********** *//* NAV BAR *//* *********** */        
 div.nav {
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     position:absolute;
     font-size:0.8em;
     font-family:'Special Elite', 'Saira', Arial, Helvetica, sans-serif;
     color:#e9d62a;
-    left:22%;
+    left:3px;
     right:22%;
     top:88px;
     align-items:left;
     width:399px;
+    justify-content: space-around;
+   
      
 }
                 /* nav bar layout */
                 a#musicnav {
                     margin-right:2px;
-                    width:322px;
+                    margin-bottom: 1px;
                     line-height: 0.7em;
                     height:33px;
                     background-color: rgb(42, 40, 40);
@@ -158,56 +160,62 @@ div.nav {
 
                 a#videosnav {
                     margin-right:2px;
-                    width:322px;
+                    margin-bottom: 1px;
                     line-height: 1.5em;
                     height:33px;
                 }
 
                 a#aboutnav {
                     margin-right:2px;
-                    width:322px;
+                    margin-bottom: 1px;
                     line-height: 1.5em;
                     height:33px;
-                }
-
-                a#aboutnav {
-                    margin-right:2px;
-                    width:322px;
-                    line-height: 0.7em;
-                    height:33px;
+                    background-color: rgb(42, 40, 40);
                 }
 
                 a#photosnav {
                     margin-right:2px;
-                    width:322px;
+                    margin-bottom: 1px;
                     line-height: 1.5em;
                     height:33px;
                 }
                 a#connectnav {
                     margin-right:2px;
-                    width:322px;
+                    margin-bottom: 1px;
                     line-height: 0.5em;
                     height:33px;
+                    background-color: rgb(42, 40, 40);
                 }
                 a#eventsnav {
                     margin-right:2px;
-                    width:322px;
+                    margin-bottom: 1px;
                     line-height: 1.5em;
                     height:33px;
+                   
                 }
 
                 a#storenav {
                     margin-right:2px;
-                    width:322px;
+                    margin-bottom: 1px;
                     line-height: 0.5em;
                     height:33px;
+                    background-color: rgb(42, 40, 40);
                 }
                 a#mainnav {
                     margin-right:2px;
-                    width:322px;
+                    margin-bottom: 1px;
                     line-height: 1.5em;
                     height:33px;
+                    
                 }
+                                /* nav spacing */
+                                p#firstline {
+                                    margin-bottom: 0.3em;
+                                }
+                               
+                                p#secondline {
+                                    margin-top:0.3em;
+                                }
 
 /* nav labels */
 a#about {
