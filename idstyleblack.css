@@ -238,9 +238,11 @@ img#logoname {
 /* about */
 img#aboutimage {
     display: flex;
+    flex-direction: row;
     position: static;
     top:55px;
     left:100px;
+    width:100px;
 
 }
 
@@ -254,11 +256,11 @@ img#aboutimage {
 
 
 /* etc images */
-img#yellowbackground {
+img#aboutimages {
     float:right;
     top:55px;
     right:100px;
-    transform: rotate(11deg) scale(0.9);
+    width: 333px;;
 }
 
 
