@@ -39,7 +39,7 @@ body {
 }
 
 
-@media (min-width: 350px) { /* larger viewport rules*/
+@media (min-width: 250px) { /* larger viewport rules*/
     body {
     margin-right:5px;
     margin-left:5px; 
