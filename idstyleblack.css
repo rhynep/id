@@ -448,8 +448,8 @@ div.connecttext1 {
 
         h3#socialmedia {
             display:flex;
-            color:white;
-            border:dotted white 1px;
+            color:black;
+            background-color: grey;
             padding-left:11px;
             font-size:0.8em;
             line-height: 1.5em;
