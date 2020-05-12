@@ -196,7 +196,7 @@ img#logoname {
    img#idsymbol {
     position:absolute;
     align-content:center;
-    right:5px;
+    right:3px;
     width:177px;
     opacity: 44%;
    }
@@ -302,6 +302,8 @@ audio#song1 {
         color:black;
         padding-left:11px;
         font-size:0.9em;
+        width:299px;
+
 }
 
             img#songimage1 {
@@ -434,13 +436,13 @@ div.photostext {
 div.connecttext1 {
     display:flex;
     flex-direction: column;
-    position: absolute;
+    position: static;
     font-family:'Saira', Arial, Helvetica, sans-serif;
     font-size:1em; 
     text-align: left;
     margin-bottom:0.5px;
     padding-top: 144px;
-    padding-left:33px;
+    padding-left:55px;
 }
 
         h3#socialmedia {
@@ -451,6 +453,7 @@ div.connecttext1 {
             font-size:0.8em;
             line-height: 1.5em;
             font-family:'Saira', Arial, Helvetica, sans-serif;
+            width:199px;
     }
             
                 h2#sminsta {
