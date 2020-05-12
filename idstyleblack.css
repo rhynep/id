@@ -35,6 +35,9 @@ body {
             visibility: hidden;
         }
 }
+
+
+
 @media (min-width: 350px) { /* larger viewport rules*/
     body {
     margin-right:5px;
