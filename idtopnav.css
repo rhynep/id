@@ -135,6 +135,7 @@ div.nav {
     align-items:center;
     width:399px;
     justify-content: space-between;
+    padding-bottom:5px;
    
      
 }
@@ -356,7 +357,7 @@ audio#song1 {
 
             img#songimage1 {
                display:flex;
-               padding-top:222px;
+               padding-top:255px;
                padding-left:155px;
                top:11px;
 
@@ -426,13 +427,14 @@ div.videostext {
     font-size:1em; 
     text-align: right;
     margin-bottom:0.5px;
+    padding-top:244px;
 }
                         /*********** list of videos ***********/
             div.endlessvideo {
                 display:flex;
                 align-content: center;
                 padding-left:11%;
-                padding-top:222px;
+                padding-top:255px;
                 margin-bottom:0.5px;
             }
 
@@ -476,8 +478,8 @@ div.connecttext1 {
     font-size:1em; 
     text-align: left;
     margin-bottom:0.5px;
-    padding-top: 222px;
-    padding-left:11%;
+    padding-top: 255px;
+   
 }
 
         h3#socialmedia {
@@ -547,10 +549,10 @@ div.eventstext {
         position: static;
         font-family:'Saira', Arial, Helvetica, sans-serif;
         font-size:1em; 
-        text-align: left;
+        text-align: center;
         margin-bottom:0.5px;
-        padding-top: 222px;
-        padding-left:11%;
+        padding-top: 255px;
+        padding-left:5%;
     }
         h3#skeletons {
             display:flex;
@@ -572,7 +574,7 @@ div.storetext {
     font-size:1em; 
     text-align: right;
     margin-bottom:0.5px;
-    padding-top:222px;
+    padding-top:255px;
     padding-left:155px;
 }
                             /* *********** *//* JAVASCRIPT CONNECTIONS *//* *********** */
@@ -588,7 +590,7 @@ div.teediv1 {
                     display:flex;
                     flex-direction: row;
                     width:311px;
-                    padding-top:222px;
+                    padding-top:255px;
                     padding-left:17%;
                     margin-top:1px;
                     margin-bottom:22px;
@@ -695,7 +697,7 @@ div.squarediv1 {
             display:flex;
             flex-direction: row;
             width:311px;
-            padding-top:222px;
+            padding-top:255px;
             padding-left:19%;
             margin-top:1px;
             margin-bottom:22px;
