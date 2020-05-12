@@ -264,7 +264,7 @@ img#logoname {
         right:11px;
         bottom:44px;
         height:444px;
-        opacity:88%;
+        opacity:33%;
 } 
         /* desktop view band image*/
         img#facesmain {
@@ -272,7 +272,7 @@ img#logoname {
             right:11px;
             bottom:44px;
             height:444px;
-            opacity:88%;           
+            opacity:11%;           
  }
         /* footer */
 #footer {
