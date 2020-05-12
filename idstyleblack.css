@@ -236,13 +236,12 @@ img#logoname {
 /* videos */    
 
 /* about */
-img#aboutimage {
-    display: flex;
+img#aboutimages {
+    display:flex;
     flex-direction: row;
-    position: static;
-    top:55px;
-    left:100px;
-    width:100px;
+    left:44px;
+    padding-left:133px;
+    padding-top:111px;
 
 }
 
@@ -253,16 +252,6 @@ img#aboutimage {
 /* connect */
 /* events */
 /* store */
-
-
-/* etc images */
-img#aboutimages {
-    float:right;
-    top:55px;
-    right:100px;
-    width: 333px;;
-}
-
 
 
 /* *********** *//* DIV: OTHER FLEXBOX BY PAGE *//* *********** */
