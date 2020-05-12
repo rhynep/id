@@ -17,6 +17,7 @@ body {
     font-family:'PT Sans Narrow', Arial, Helvetica, sans-serif;
     margin-left:7px;
     margin-right:7px;
+    text-align: center;
   
      }
 
@@ -244,7 +245,7 @@ a#store {
         /* band name */
 img#logoname {
     position:absolute;
-    left:11px;
+    left:44px;
     top:11px;
     opacity: 92%;
     width:211px;
@@ -253,7 +254,7 @@ img#logoname {
    img#idsymbol {
     position:absolute;
     align-content:center;
-    right:3px;
+    right:44px;
     width:177px;
     opacity: 77%;
    }
@@ -289,6 +290,12 @@ img#logoname {
 } 
 /* *********** *//* IMAGES BY PAGE *//* *********** */
 /* main */
+img#idsymbol2 {
+    display:flex;
+    flex-direction: column;
+    top:11px;
+    bottom:55px;
+}
 /* music */ 
 /* videos */    
 
@@ -479,6 +486,7 @@ div.connecttext1 {
     text-align: left;
     margin-bottom:0.5px;
     padding-top: 255px;
+    
    
 }
 
