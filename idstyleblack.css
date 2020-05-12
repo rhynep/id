@@ -47,7 +47,7 @@ body {
 @media screen and (orientation: portrait) { /* portrait/landscape rules */
         body {
             font-weight: bold;
-           
+          
         }
         div.nav {
             display:flex;
@@ -139,7 +139,7 @@ div.nav {
     position:absolute;
     padding-top:155px;
     padding-right:3px;
-    margin-bottom:1px;
+    margin-bottom:11px;
     top:22px;
     margin-left:3%;
     font-size:1em;
@@ -147,7 +147,7 @@ div.nav {
     color:#e9d62a;
     text-align: left;
     justify-content: space-between;
-    line-height:0.7em;    
+    line-height:0.9em;    
 }
 
 
@@ -197,7 +197,7 @@ img#logoname {
         /* band symbol */
    img#idsymbol {
     position:absolute;
-    align-content:right;
+    align-content:center;
     right:3px;
     width:177px;
     opacity: 44%;
@@ -209,7 +209,7 @@ img#logoname {
         right:11px;
         bottom:44px;
         height:444px;
-        opacity:55%;
+        opacity:88%;
 } 
         /* desktop view band image*/
         img#facesmain {
