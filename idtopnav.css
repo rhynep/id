@@ -53,12 +53,8 @@ body {
             font-weight: bold;
             font-size:1em;   
         }
-
-    }
-        nav.div {
-            padding-top:33px;
-    }      
-
+            }
+       
    
 /* *********** *//* LINKS *//* *********** */
 a:link{
@@ -138,7 +134,7 @@ div.nav {
     width:399px;
     justify-content: space-between;
     padding-bottom:5px;
-    padding-top:55px;
+    padding-top:44px;
     text-align: left;
     padding-left:22px;
     line-height: 1.5em;
