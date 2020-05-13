@@ -27,7 +27,7 @@ body {
     body{
     margin-left: 0px;
     margin-right: 0px;
-    font-size:1em;
+    font-size:0.8em;
 
          /* desktop view band image*/
     }
@@ -53,10 +53,8 @@ body {
             font-weight: bold;
             font-size:1em;   
         }
-        a#music a#music {
-            margin-top:11px;
             }
-        }
+       
    
 /* *********** *//* LINKS *//* *********** */
 a:link{
@@ -127,7 +125,7 @@ div.nav {
     display:flex;
     flex-direction: column;
     position:fixed;
-    font-size:1.3em;
+    font-size:1em;
     font-family:'Special Elite', 'Saira', Arial, Helvetica, sans-serif;
     color:grey;
     left:1px;
