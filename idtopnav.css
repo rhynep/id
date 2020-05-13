@@ -53,8 +53,10 @@ body {
             font-weight: bold;
             font-size:1em;   
         }
+        a#music a#music {
+            margin-top:11px;
             }
-       
+        }
    
 /* *********** *//* LINKS *//* *********** */
 a:link{
@@ -267,12 +269,12 @@ img#logoname {
    }
 
         /* desktop view band image*/
-    img#theband {
-        position: fixed;
-        right:11px;
-        bottom:44px;
-        height:444px;
-        opacity:33%;
+        img#theband {
+            position: fixed;
+            right:11px;
+            bottom:44px;
+            height:444px;
+            opacity:33%;
 } 
         /* desktop view band image*/
         img#facesmain {
