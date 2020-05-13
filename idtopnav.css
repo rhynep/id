@@ -23,26 +23,47 @@ body {
 
 /* *********** *//* MEDIA QUERY *//* *********** */
 /* use media query to ask how big the viewport is */
-@media (max-width: 999px) { /* these rules take effect when the viewport is small */
+@media (max-width: 999px) { /* these rules take effect when 
+                            the viewport is small */
     body{
     margin-left: 0px;
     margin-right: 0px;
-    font-size:0.8em;
-
-         /* desktop view band image*/
+    font-size:0.8em;         
     }
+            /* desktop view band image*/
          img#theband {
             visibility: hidden;
         }
+
         img#facesmain {
             visibility: hidden;
         }
+
+
+            /* main page text */
         p#mainpara1 {
             width:277px;
         }
+
         p#mainpara2 {
             width:277px;
         }
+
+
+            /* smaller viewport image sizes */
+                /*band logo*/
+        img#logoname {
+            width:77px;
+           }
+                /* band symbol */
+           img#idsymbol {
+            width:77px;
+           }
+
+           p#aboutpara1 {
+               width:277px;
+           }
+
 }
 
 
@@ -255,21 +276,21 @@ a#main {
 /* object identifiers */
 
         /* band name */
-img#logoname {
-    position:absolute;
-    left:22px;
-    top:11px;
-    opacity: 92%;
-    width:211px;
-   }
-        /* band symbol */
-   img#idsymbol {
-    position:absolute;
-    align-content:center;
-    right:3px;
-    width:177px;
-    opacity: 77%;
-   }
+        img#logoname {
+            position:fixed;
+            left:22px;
+            top:11px;
+            opacity: 92%;
+            width:277px;
+           }
+                /* band symbol */
+           img#idsymbol {
+            position: absolute;
+            align-content:center;
+            right:3px;
+            width:277px;
+            opacity: 77%;
+           }
 
         /* desktop view band image*/
         img#theband {
@@ -319,15 +340,10 @@ img#mainpagename {
 
 /* about */
 img#aboutimages {
-    display:flex;
-    flex-direction: row;
-    padding-top:255px;
-    padding-left:11px;
-    align-items: center;
-
+    position:static;
+    padding-left:144px;
+    top:411px;
 }
-
-
 /* photos */
     /* in javascript*/
 
@@ -349,6 +365,7 @@ div.maintext {
     text-align:center;
     font-size:1.1em;
     padding-top:177px;
+    width: 599px;
 
     
 }
@@ -476,14 +493,42 @@ div.videostext {
             }
 
 /* about */
+div.aboutimage {
+    align-items: center;
+}
+
 div.bandbio {
     display:flex;
-    flex-direction: column;
-    right:5%;
+    flex-direction: row;
+    padding-left:144px;
+    padding-top:199px;
     font-family:'Saira', Arial, Helvetica, sans-serif;
     font-size:1em; 
-    text-align: right;
+    text-align: center;
+    width:599px;
     margin-bottom:0.5px;
+}
+
+
+
+
+div.brittbio {
+    display:flex;
+    flex-direction: column;
+    width:111px;
+    padding-top:155px;
+    align-items:center;
+    color:white;
+}
+
+
+
+div.loganbio {
+    display:flex;
+    flex-direction: column;
+    padding-left: 1px;
+    padding-top:155px;
+    align-items:center;
 }
 
 /* photos */
@@ -890,6 +935,12 @@ div.flashes1 {
     transition-property:visibility;
     transition-duration: 1s;
 }
+}
+
+img#flashesA {
+    display:flex;
+    top:33px;
+    left:555px;
 
 }
 
