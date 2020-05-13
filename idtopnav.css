@@ -51,7 +51,7 @@ body {
 @media screen and (orientation: portrait) { /* portrait/landscape rules */
         body {
             font-weight: bold;
-            font-size:1em;   
+            font-size:0.9em;   
         }
             }
        
