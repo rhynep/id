@@ -134,7 +134,7 @@ div.nav {
     width:399px;
     justify-content: space-between;
     padding-bottom:5px;
-    padding-top:44px;
+    padding-top:33px;
     text-align: left;
     padding-left:22px;
     line-height: 1.5em;
@@ -627,7 +627,7 @@ div.teediv1 {
                     padding-top:233px;
                     padding-left:133px;
                     margin-top:1px;
-                    margin-bottom:22px;
+                    margin-bottom:3px;
                 }
                 
                 div.tee1info {
@@ -637,7 +637,7 @@ div.teediv1 {
                     width:311px;
                     padding-left:133px;
                     margin-top:1px;
-                    margin-bottom:22px;
+                    margin-bottom:11px;
                     }
 
 div.teediv2 {
@@ -650,10 +650,10 @@ div.teediv2 {
                     display:flex;
                     flex-direction: row;
                     width:311px;
-                    padding-top:133px;
+                    padding-top:11px;
                     padding-left:133px;
                     margin-top:1px;
-                    margin-bottom:22px;
+                    margin-bottom:3px;
                 }
                 
                 div.tee2info {
@@ -663,7 +663,7 @@ div.teediv2 {
                     width:311px;
                     padding-left:133px;
                     margin-top:1px;
-                    margin-bottom:22px;
+                    margin-bottom:11px;
                     }
 
 div.teediv3 {
@@ -676,10 +676,10 @@ div.teediv3 {
                     display:flex;
                     flex-direction: row;
                     width:311px;
-                    padding-top:133px;
+                    padding-top:11px;
                     padding-left:133px;
                     margin-top:1px;
-                    margin-bottom:22px;
+                    margin-bottom:3px;
                 }
                 
                 div.tee3info {
@@ -689,7 +689,7 @@ div.teediv3 {
                     width:311px;
                     padding-left:133px;
                     margin-top:1px;
-                    margin-bottom:22px;
+                    margin-bottom:11px;
                     }
 
 div.teediv4 {
@@ -702,10 +702,10 @@ div.teediv4 {
                     display:flex;
                     flex-direction: row;
                     width:311px;
-                    padding-top:133px;
+                    padding-top:11px;
                     padding-left:133px;
                     margin-top:1px;
-                    margin-bottom:22px;
+                    margin-bottom:3px;
                 }
                 
                 div.tee4info {
@@ -715,7 +715,7 @@ div.teediv4 {
                     width:311px;
                     padding-left:133px;
                     margin-top:1px;
-                    margin-bottom:22px;
+                    margin-bottom:11px;
                     }
 
 /* photos */
