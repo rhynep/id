@@ -478,13 +478,13 @@ div.photostext {
 div.connecttext1 {
     display:flex;
     flex-direction: column;
-    position: absolute;
+    position: static;
     padding-left:15%;
     font-family:'Saira', Arial, Helvetica, sans-serif;
     font-size:1em; 
     text-align: left;
     margin-bottom:0.5px;
-    padding-top: 255px;
+    padding-top: 299px;
    
 }
 
