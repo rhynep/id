@@ -37,7 +37,7 @@ body {
         img#facesmain {
             visibility: hidden;
         }
-      
+        
 }
 
 
@@ -301,7 +301,11 @@ img#logoname {
 /* *********** *//* IMAGES BY PAGE *//* *********** */
 /* main */
 img#splashimage {
-   padding-top:255px;
+   position: absolute;
+   padding-top:222px;
+   padding-left: 133px;
+   padding-right: 11%;
+   width:222px;
 }
 
 /* music */ 
@@ -332,11 +336,13 @@ img#aboutimages {
 div.maintext {
     display:flex;
     flex-direction:row;
-    position: fixed;
-    right:2%;
+    position: absolute;
+    padding-top:388px;
+    padding-left: 133px;
+    padding-right: 11%;
+    width:222px;
     font-family:'Saira', Arial, Helvetica, sans-serif;
-    font-size:1em; 
-    text-align: right;
+    text-align:center;
 }
 
 /* music */
