@@ -125,7 +125,7 @@ div.nav {
     display:flex;
     flex-direction: column;
     position:fixed;
-    font-size:1em;
+    font-size:1.3em;
     font-family:'Special Elite', 'Saira', Arial, Helvetica, sans-serif;
     color:grey;
     left:1px;
