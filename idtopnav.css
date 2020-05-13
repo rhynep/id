@@ -883,20 +883,11 @@ div.flashes1 {
     visibility:hidden;
     position:fixed;
     color:black;
-    margin-left:5%;
-    margin-top:77%;
+    margin-right:55px;
+    margin-top:55px;
     transition-property:visibility;
     transition-duration: 1s;
 }
-
-div.flashes2 {
-    position:fixed;
-    color:black;
-    margin-left:7%;
-    margin-top:22%
-   
-}
-
 
 }
 
