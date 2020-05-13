@@ -457,7 +457,7 @@ div.videostext {
             div.endlessvideo {
                 display:flex;
                 align-content: center;
-                padding-left:11%;
+                padding-left:133px;
                 padding-top:255px;
                 margin-bottom:0.5px;
             }
@@ -465,7 +465,7 @@ div.videostext {
             div.carelessvideo {
                 display:flex;
                 align-content: center;
-                padding-left:11%;
+                padding-left:133px;
                 padding-top:33px;
                 margin-bottom:0.5px;
             }
@@ -624,8 +624,8 @@ div.teediv1 {
                     display:flex;
                     flex-direction: row;
                     width:311px;
-                    padding-top:277px;
-                    padding-left:15%;
+                    padding-top:233px;
+                    padding-left:133px;
                     margin-top:1px;
                     margin-bottom:22px;
                 }
@@ -635,7 +635,7 @@ div.teediv1 {
                     flex-direction: row;
                     position: absolute;
                     width:311px;
-                    padding-left:15%;
+                    padding-left:133px;
                     margin-top:1px;
                     margin-bottom:22px;
                     }
@@ -651,7 +651,7 @@ div.teediv2 {
                     flex-direction: row;
                     width:311px;
                     padding-top:133px;
-                    padding-left:17%;
+                    padding-left:133px;
                     margin-top:1px;
                     margin-bottom:22px;
                 }
@@ -661,7 +661,7 @@ div.teediv2 {
                     flex-direction: row;
                     position: absolute;
                     width:311px;
-                    padding-left:17%;
+                    padding-left:133px;
                     margin-top:1px;
                     margin-bottom:22px;
                     }
@@ -677,7 +677,7 @@ div.teediv3 {
                     flex-direction: row;
                     width:311px;
                     padding-top:133px;
-                    padding-left:17%;
+                    padding-left:133px;
                     margin-top:1px;
                     margin-bottom:22px;
                 }
@@ -687,7 +687,7 @@ div.teediv3 {
                     flex-direction: row;
                     position: absolute;
                     width:311px;
-                    padding-left:17%;
+                    padding-left:133px;
                     margin-top:1px;
                     margin-bottom:22px;
                     }
@@ -703,7 +703,7 @@ div.teediv4 {
                     flex-direction: row;
                     width:311px;
                     padding-top:133px;
-                    padding-left:17%;
+                    padding-left:133px;
                     margin-top:1px;
                     margin-bottom:22px;
                 }
@@ -713,7 +713,7 @@ div.teediv4 {
                     flex-direction: row;
                     position: absolute;
                     width:311px;
-                    padding-left:17%;
+                    padding-left:133px;
                     margin-top:1px;
                     margin-bottom:22px;
                     }
@@ -732,7 +732,7 @@ div.squarediv1 {
             flex-direction: row;
             width:311px;
             padding-top:255px;
-            padding-left:19%;
+            padding-left:133px;
             margin-top:1px;
             margin-bottom:22px;
         }
@@ -749,7 +749,7 @@ div.squarediv2 {
             width:311px;
             align-content: right;
             padding-top:111px;
-            padding-left:19%;
+            padding-left:133px;
             margin-top:1px;
             margin-bottom:22px;
         }
@@ -766,7 +766,7 @@ div.squarediv3 {
             width:311px;
             align-content: right;
             padding-top:111px;
-            padding-left:19%;
+            padding-left:133px;
             margin-top:1px;
             margin-bottom:22px;
         }
@@ -783,7 +783,7 @@ div.squarediv4 {
             width:311px;
             align-content: right;
             padding-top:111px;
-            padding-left:19%;
+            padding-left:133px;
             margin-top:1px;
             margin-bottom:1px;
         }
@@ -800,7 +800,7 @@ div.squarediv5 {
             width:311px;
             align-content: right;
             padding-top:111px;
-            padding-left:19%;
+            padding-left:133px;
             margin-top:1px;
             margin-bottom:1px;
         }
@@ -817,7 +817,7 @@ div.squarediv6 {
             width:311px;
             align-content: right;
             padding-top:111px;
-            padding-left:19%;
+            padding-left:133px;
             margin-top:1px;
             margin-bottom:1px;
         }
@@ -834,7 +834,7 @@ div.squarediv7 {
             width:311px;
             align-content: right;
             padding-top:111px;
-            padding-left:19%;
+            padding-left:133px;
             margin-top:1px;
             margin-bottom:1px;
         }
@@ -851,7 +851,7 @@ div.squarediv8 {
             width:311px;
             align-content: right;
             padding-top:111px;
-            padding-left:19%;
+            padding-left:133px;
             margin-top:1px;
             margin-bottom:1px;
         }
@@ -867,7 +867,7 @@ div.squarediv {
             flex-direction: row;
             width:311px;
             padding-top:111px;
-            padding-left:19%;
+            padding-left:133px;
             margin-top:1px;
             margin-bottom:22px;
             }
