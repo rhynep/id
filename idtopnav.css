@@ -203,7 +203,7 @@ div.nav {
                     height:33px;
                     border:black dotted 0.5px;
                 }
-                                /* nav spacing for top nav */
+                                /* nav spacing */
                                 p#firstline {
                                     margin-bottom: 0.3em;
                                 }
@@ -261,7 +261,7 @@ img#logoname {
    img#idsymbol {
     position:absolute;
     align-content:center;
-    right:22px;
+    right:3px;
     width:177px;
     opacity: 77%;
    }
@@ -375,13 +375,13 @@ audio#song1 {
         color:black;
         padding-left:11px;
         font-size:0.9em;
-        width:299px;
+        width:244px;
 
 }
 
             img#songimage1 {
                display:flex;
-               padding-top:255px;
+               padding-top:155px;
                padding-left:155px;
                top:11px;
 
@@ -451,14 +451,14 @@ div.videostext {
     font-size:1em; 
     text-align: right;
     margin-bottom:0.5px;
-    padding-top:244px;
+    padding-top:144px;
 }
                         /*********** list of videos ***********/
             div.endlessvideo {
                 display:flex;
                 align-content: center;
                 padding-left:133px;
-                padding-top:255px;
+                padding-top:144px;
                 margin-bottom:0.5px;
             }
 
