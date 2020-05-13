@@ -37,7 +37,12 @@ body {
         img#facesmain {
             visibility: hidden;
         }
-        
+        p#mainpara1 {
+            width:277px;
+        }
+        p#mainpara2 {
+            width:277px;
+        }
 }
 
 
@@ -344,7 +349,7 @@ div.maintext {
     text-align:center;
     font-size:1.1em;
     padding-top:177px;
-    width:277px;
+
     
 }
 
