@@ -51,11 +51,12 @@ body {
 @media screen and (orientation: portrait) { /* portrait/landscape rules */
         body {
             font-weight: bold;
-            font-size:1em;
-            
+            font-size:1em;   
         }
 
-        
+    }
+        nav.div {
+            padding-top:33px;
     }      
 
    
