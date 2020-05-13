@@ -301,11 +301,11 @@ img#logoname {
 /* *********** *//* IMAGES BY PAGE *//* *********** */
 /* main */
 img#splashimage {
-   position: absolute;
+   position: center;
    padding-top:222px;
-   padding-left: 133px;
-   padding-right: 11%;
-   width:222px;
+   padding-left: 33%;
+   padding-right: 33%;
+   width:333px;
 }
 
 /* music */ 
@@ -336,13 +336,14 @@ img#aboutimages {
 div.maintext {
     display:flex;
     flex-direction:row;
-    position: absolute;
-    padding-top:388px;
+    position: static;
     padding-left: 133px;
     padding-right: 11%;
-    width:222px;
     font-family:'Saira', Arial, Helvetica, sans-serif;
-    text-align:center;
+    text-align:justify;
+    font-size:1.1em;
+    padding-top:155px;
+    
 }
 
 /* music */
