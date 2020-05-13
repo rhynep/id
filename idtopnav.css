@@ -37,6 +37,7 @@ body {
         img#facesmain {
             visibility: hidden;
         }
+      
 }
 
 
@@ -126,25 +127,29 @@ h5 {
 div.nav {
     display:flex;
     flex-direction: column;
-    position:absolute;
+    position:fixed;
     font-size:1em;
     font-family:'Special Elite', 'Saira', Arial, Helvetica, sans-serif;
     color:grey;
-    right:22%;
-    left:3px;
+    left:1px;
     top:166px;
-    align-items:center;
+    align-items:left;
     width:399px;
     justify-content: space-between;
     padding-bottom:5px;
+    padding-top:77px;
+    text-align: left;
+    padding-left:22px;
+    line-height: 1.5em;
    
      
 }
+
                 /* nav bar layout */
                 a#musicnav {
-                    margin-right:2px;
+                    margin-left:2px;
                     margin-bottom: 1px;
-                    line-height: 1.5em;
+                    line-height: 1em;
                     height:33px;
                     border:black dotted 0.5px;
                 }
@@ -152,7 +157,7 @@ div.nav {
                 a#videosnav {
                     margin-right:2px;
                     margin-bottom: 1px;
-                    line-height: 1.5em;
+                    line-height: 1em;
                     height:33px;
                     border:black dotted 0.5px;
                 }
@@ -160,7 +165,7 @@ div.nav {
                 a#aboutnav {
                     margin-right:2px;
                     margin-bottom: 1px;
-                    line-height: 1.5em;
+                    line-height: 1em;
                     height:33px;
                     border:black dotted 0.2px;
                 }
@@ -168,21 +173,21 @@ div.nav {
                 a#photosnav {
                     margin-right:2px;
                     margin-bottom: 1px;
-                    line-height: 1.5em;
+                    line-height: 1em;
                     height:33px;
                     border:black dotted 0.5px;
                 }
                 a#connectnav {
                     margin-right:2px;
                     margin-bottom: 1px;
-                    line-height: 1.5em;
+                    line-height: 1em;
                     height:33px;
                     border:black dotted 0.2px;
                 }
                 a#eventsnav {
                     margin-right:2px;
                     margin-bottom: 1px;
-                    line-height: 1.5em;
+                    line-height: 1em;
                     height:33px;
                     border:black dotted 0.5px;
                 }
@@ -190,21 +195,22 @@ div.nav {
                 a#storenav {
                     margin-right:2px;
                     margin-bottom: 1px;
-                    line-height: 1.5em;
+                    line-height: 1em;
                     height:33px;
                     border:black dotted 0.2px;
                 }
                 a#mainnav {
                     margin-right:2px;
                     margin-bottom: 1px;
-                    line-height: 1.5em;
+                    line-height: 1em;
                     height:33px;
                     border:black dotted 0.5px;
                 }
-                                /* nav spacing */
+                                /* nav spacing for top nav */
                                 p#firstline {
                                     margin-bottom: 0.3em;
                                 }
+                                
                                
                             
 /* nav labels */
@@ -236,6 +242,10 @@ a#store {
     color: #de5004;
     text-decoration: line-through;
 }
+a#main {
+    color: #de5004;
+    text-decoration: line-through;
+}
 
 
 /* *********** *//* MAIN LAYOUT IMAGES *//* *********** */
@@ -245,7 +255,7 @@ a#store {
         /* band name */
 img#logoname {
     position:absolute;
-    left:44px;
+    left:22px;
     top:11px;
     opacity: 92%;
     width:211px;
