@@ -365,7 +365,7 @@ audio#song1 {
     display:flex;
     flex-direction: row;
     align-items:left;
-    padding-left:144px;
+    padding-left:133px;
 }
     h3#thebandname {
         display:flex;
@@ -399,7 +399,7 @@ audio#song2 {
     display:flex;
     flex-direction: row;
     align-items:left;
-    padding-left:144px;
+    padding-left:133px;
 
             }
             img#songimage2 {
