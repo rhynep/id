@@ -165,6 +165,7 @@ div.nav {
     text-align: left;
     padding-left:22px;
     line-height: 1.5em;
+    margin-right:1px;
    
      
 }
@@ -556,7 +557,7 @@ div.connecttext1 {
     margin-bottom:0.5px;
     padding-top: 144px;
     padding-bottom:11px;
-    margin-left:55px;
+    margin-left:77px;
     margin-top:55px;
    
 }
@@ -679,7 +680,7 @@ div.teediv1 {
                     flex-direction: row;
                     width:311px;
                     padding-top:233px;
-                    padding-left:133px;
+                    padding-left:144px;
                     margin-top:1px;
                     margin-bottom:3px;
                 }
@@ -705,7 +706,7 @@ div.teediv2 {
                     flex-direction: row;
                     width:311px;
                     padding-top:11px;
-                    padding-left:133px;
+                    padding-left:144px;
                     margin-top:1px;
                     margin-bottom:3px;
                 }
@@ -731,7 +732,7 @@ div.teediv3 {
                     flex-direction: row;
                     width:311px;
                     padding-top:11px;
-                    padding-left:133px;
+                    padding-left:144px;
                     margin-top:1px;
                     margin-bottom:3px;
                 }
@@ -757,7 +758,7 @@ div.teediv4 {
                     flex-direction: row;
                     width:311px;
                     padding-top:11px;
-                    padding-left:133px;
+                    padding-left:144px;
                     margin-top:1px;
                     margin-bottom:3px;
                 }
@@ -786,7 +787,7 @@ div.squarediv1 {
             flex-direction: row;
             width:311px;
             padding-top:255px;
-            padding-left:133px;
+            padding-left:144px;
             margin-top:1px;
             margin-bottom:22px;
         }
@@ -803,7 +804,7 @@ div.squarediv2 {
             width:311px;
             align-content: right;
             padding-top:111px;
-            padding-left:133px;
+            padding-left:144px;
             margin-top:1px;
             margin-bottom:22px;
         }
@@ -820,7 +821,7 @@ div.squarediv3 {
             width:311px;
             align-content: right;
             padding-top:111px;
-            padding-left:133px;
+            padding-left:144px;
             margin-top:1px;
             margin-bottom:22px;
         }
@@ -837,7 +838,7 @@ div.squarediv4 {
             width:311px;
             align-content: right;
             padding-top:111px;
-            padding-left:133px;
+            padding-left:144px;
             margin-top:1px;
             margin-bottom:1px;
         }
@@ -854,7 +855,7 @@ div.squarediv5 {
             width:311px;
             align-content: right;
             padding-top:111px;
-            padding-left:133px;
+            padding-left:144px;
             margin-top:1px;
             margin-bottom:1px;
         }
@@ -871,7 +872,7 @@ div.squarediv6 {
             width:311px;
             align-content: right;
             padding-top:111px;
-            padding-left:133px;
+            padding-left:144px;
             margin-top:1px;
             margin-bottom:1px;
         }
@@ -888,7 +889,7 @@ div.squarediv7 {
             width:311px;
             align-content: right;
             padding-top:111px;
-            padding-left:133px;
+            padding-left:144px;
             margin-top:1px;
             margin-bottom:1px;
         }
@@ -905,7 +906,7 @@ div.squarediv8 {
             width:311px;
             align-content: right;
             padding-top:111px;
-            padding-left:133px;
+            padding-left:144px;
             margin-top:1px;
             margin-bottom:1px;
         }
@@ -921,7 +922,7 @@ div.squarediv {
             flex-direction: row;
             width:311px;
             padding-top:111px;
-            padding-left:133px;
+            padding-left:144px;
             margin-top:1px;
             margin-bottom:22px;
             }
