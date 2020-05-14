@@ -42,12 +42,12 @@ body {
 
             /* main page text */
         p#mainpara1 {
-            width:277px;
+            width:255px;
            
         }
 
         p#mainpara2 {
-            width:277px;
+            width:255px;
         }
 
 
@@ -62,7 +62,7 @@ body {
            }
 
            p#aboutpara1 {
-               width:277px;
+               width:255px;
            }
 
 }
@@ -361,7 +361,7 @@ div.maintext {
     display:flex;
     flex-direction:column;
     position: static;
-    padding-left: 99px;
+    padding-left: 88px;
     padding-right: 11%;
     font-family:'Saira', Arial, Helvetica, sans-serif;
     text-align:center;
@@ -502,7 +502,7 @@ div.aboutimage {
 div.bandbio {
     display:flex;
     flex-direction: row;
-    padding-left:122px;
+    padding-left:111px;
     padding-top:199px;
     font-family:'Saira', Arial, Helvetica, sans-serif;
     font-size:1em; 
