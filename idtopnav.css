@@ -481,7 +481,7 @@ div.videostext {
             div.endlessvideo {
                 display:flex;
                 align-content: center;
-                padding-left:133px;
+                padding-left:111px;
                 padding-top:144px;
                 margin-bottom:0.5px;
             }
@@ -489,7 +489,7 @@ div.videostext {
             div.carelessvideo {
                 display:flex;
                 align-content: center;
-                padding-left:133px;
+                padding-left:111px;
                 padding-top:33px;
                 margin-bottom:0.5px;
             }
