@@ -43,6 +43,7 @@ body {
             /* main page text */
         p#mainpara1 {
             width:277px;
+           
         }
 
         p#mainpara2 {
@@ -281,14 +282,14 @@ a#main {
             left:22px;
             top:11px;
             opacity: 92%;
-            width:211px;
+            width:177px;
            }
                 /* band symbol */
            img#idsymbol {
             position: absolute;
             align-content:center;
             right:3px;
-            width:211px;
+            width:177px;
             opacity: 77%;
            }
 
@@ -341,8 +342,9 @@ img#mainpagename {
 /* about */
 img#aboutimages {
     position:static;
-    padding-left:144px;
+    padding-left:77px;
     top:411px;
+    width:333px;
 }
 /* photos */
     /* in javascript*/
@@ -359,7 +361,7 @@ div.maintext {
     display:flex;
     flex-direction:column;
     position: static;
-    padding-left: 111px;
+    padding-left: 99px;
     padding-right: 11%;
     font-family:'Saira', Arial, Helvetica, sans-serif;
     text-align:center;
@@ -500,7 +502,7 @@ div.aboutimage {
 div.bandbio {
     display:flex;
     flex-direction: row;
-    padding-left:144px;
+    padding-left:122px;
     padding-top:199px;
     font-family:'Saira', Arial, Helvetica, sans-serif;
     font-size:1em; 
@@ -941,8 +943,8 @@ div.flashes1 {
 
 img#flashesA {
     display:flex;
-    top:33px;
-    left:555px;
+    top:111px;
+    right:99px;
 
 }
 
