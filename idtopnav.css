@@ -193,7 +193,7 @@ div.topnav {
     justify-content: space-between;
     padding-bottom:33px;
     padding-top:33px;
-    text-align: left;
+    text-align: center;
     padding-left:22px;
     line-height: 1.5em;
     margin-right:1px; 
@@ -364,7 +364,7 @@ img#splashimage {
    width:333px;
 }
 
-img#mainpagename {
+img#mainpagesymbol {
     width:277px;
 }
 
@@ -437,7 +437,7 @@ audio#song1 {
 
             img#songimage1 {
                display:flex;
-               padding-top:155px;
+               padding-top:199px;
                padding-left:155px;
                top:11px;
 
@@ -458,6 +458,7 @@ audio#song2 {
     padding-left:133px;
 
             }
+
             img#songimage2 {
             display:flex;
             padding-left:155px;
@@ -514,7 +515,7 @@ div.videostext {
                 display:flex;
                 align-content: center;
                 padding-left:111px;
-                padding-top:144px;
+                padding-top:199px;
                 margin-bottom:0.5px;
             }
 
@@ -586,10 +587,8 @@ div.connecttext1 {
     font-size:1em; 
     text-align: left;
     margin-bottom:0.5px;
-    padding-top: 144px;
-    padding-bottom:11px;
+    padding-top: 222px;
     margin-left:77px;
-    margin-top:55px;
    
 }
 
