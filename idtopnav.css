@@ -40,6 +40,11 @@ body {
         }
 
 
+            /* side nav */
+        div.nav {
+            visibility: hidden;
+        }
+
             /* main page text */
         p#mainpara1 {
             width:255px;
@@ -53,7 +58,7 @@ body {
 
             /* smaller viewport image sizes */
                 /*band logo*/
-        img#logoname {
+            img#logoname {
             width:77px;
            }
                 /* band symbol */
@@ -68,20 +73,26 @@ body {
 }
 
 
-@media (min-width: 250px) { /* larger viewport rules*/
+@media (min-width: 300px) { /* larger viewport rules*/
     body {
     margin-right:5px;
     margin-left:5px; 
     }
 
 
-@media screen and (orientation: portrait) { /* portrait/landscape rules */
+@media screen and (orientation: portrait) { /* portrait rules */
         body {
             font-weight: bold;
             font-size:0.9em;   
         }
             }
-       
+
+@media screen and (orientation: landscape) { /* landscape rules */
+        div.topnav {
+            display:none;
+            visibility: hidden;
+            }  
+        }
    
 /* *********** *//* LINKS *//* *********** */
 a:link{
@@ -165,10 +176,30 @@ div.nav {
     text-align: left;
     padding-left:22px;
     line-height: 1.5em;
-    margin-right:1px;
-   
-     
+    margin-right:1px; 
 }
+
+div.topnav {
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    font-size:1em;
+    font-family:'Special Elite', 'Saira', Arial, Helvetica, sans-serif;
+    color:grey;
+    left:1px;
+    top:122px;
+    align-items:center;
+    width:399px;
+    justify-content: space-between;
+    padding-bottom:33px;
+    padding-top:33px;
+    text-align: left;
+    padding-left:22px;
+    line-height: 1.5em;
+    margin-right:1px; 
+}    
+     
+
 
                 /* nav bar layout */
                 a#musicnav {
