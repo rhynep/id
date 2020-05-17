@@ -581,14 +581,14 @@ div.photostext {
 /* connect */
 div.connecttext {
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     position: absolute;
     font-family:'Saira', Arial, Helvetica, sans-serif;
     font-size:1em; 
     text-align: left;
     margin-bottom:0.5px;
     padding-top: 255px;
-    margin-left:77px;
+  
    
 }
 
@@ -621,7 +621,6 @@ h2#email {
             
                 h2#sminsta {
                     display:flex;
-                    padding-left:11px;
                     color:white;
                     padding-top:1px;
                     font-family:'Saira', Arial, Helvetica, sans-serif;
@@ -629,7 +628,6 @@ h2#email {
             
                 h2#smyoutube {
                     display:flex;
-                    padding-left:11px;
                     color:white;
                     padding-top:1px;
                     font-family:'Saira', Arial, Helvetica, sans-serif;
