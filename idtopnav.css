@@ -579,26 +579,40 @@ div.photostext {
 }
 
 /* connect */
-div.connecttext1 {
+div.connecttext {
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     position: absolute;
     font-family:'Saira', Arial, Helvetica, sans-serif;
     font-size:1em; 
     text-align: left;
     margin-bottom:0.5px;
-    padding-top: 222px;
+    padding-top: 255px;
     margin-left:77px;
    
+}
+
+div.connecttext1 {
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    font-family:'Saira', Arial, Helvetica, sans-serif;
+    text-align: left;
+    align-items: left;
+    padding-top: 222px;   
+}
+
+h3#contact {
+    width:155px;
+}
+h2#email {
+    width:155px;
 }
 
         h3#socialmedia {
             display:flex;
             color:black;
             background-color: grey;
-            padding-left:11px;
-            font-size:0.8em;
-            line-height: 1.5em;
             font-family:'Saira', Arial, Helvetica, sans-serif;
             width:155px;
     }
@@ -607,7 +621,6 @@ div.connecttext1 {
                     display:flex;
                     padding-left:11px;
                     color:white;
-                    font-size:0.8em;
                     padding-top:1px;
                     font-family:'Saira', Arial, Helvetica, sans-serif;
                 }
@@ -616,7 +629,6 @@ div.connecttext1 {
                     display:flex;
                     padding-left:11px;
                     color:white;
-                    font-size:0.8em;
                     padding-top:1px;
                     font-family:'Saira', Arial, Helvetica, sans-serif;
                 }
@@ -625,7 +637,6 @@ div.connecttext1 {
                     display:flex;
                     padding-left:11px;
                     color:white;
-                    font-size:0.8em;
                     padding-top:1px;
                     font-family:'Saira', Arial, Helvetica, sans-serif;
                 }
@@ -634,8 +645,6 @@ div.connecttext1 {
                 h2#smfacebook {
                     display:flex;
                     padding-left:11px;
-                    color:white;
-                    font-size:0.8em;
                     padding-top:1px;
                     font-family:'Saira', Arial, Helvetica, sans-serif;
                 }
@@ -644,12 +653,10 @@ div.connecttext1 {
                     display:flex;
                     padding-left:11px;
                     color:white;
-                    font-size:0.8em;
                     padding-top:1px;
                     font-family:'Saira', Arial, Helvetica, sans-serif;
                 }
-h2#email {
-font-size: 0.8em;}
+
 
 
 /* events */
@@ -817,7 +824,7 @@ div.squarediv1 {
             flex-direction: row;
             width:311px;
             padding-top:255px;
-            padding-left:144px;
+            padding-left:122px;
             margin-top:1px;
             margin-bottom:22px;
         }
