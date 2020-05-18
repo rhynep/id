@@ -64,7 +64,7 @@ body {
            }
                 /* band symbol */
            img#idsymbol {
-            width:77px;
+            visibility: hidden;
            }
 
            p#aboutpara1 {
