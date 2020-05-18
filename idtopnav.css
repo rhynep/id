@@ -310,10 +310,10 @@ a#main {
         /* band name */
         img#logoname {
             position: absolute;
-            left:22px;
-            top:11px;
+            left:9px;
+            top:1px;
             opacity: 92%;
-            width:177px;
+            width:222px;
            }
                 /* band symbol */
            img#idsymbol {
