@@ -18,8 +18,6 @@ body {
     margin-left:7px;
     margin-right:7px;
     text-align: center;
-  
-  
      }
 
 /* *********** *//* MEDIA QUERY *//* *********** */
@@ -31,7 +29,7 @@ body {
     margin-right: 0px;
     font-size:0.8em;         
     }
-            /* desktop view band image*/
+            /* desktop view: band image*/
          img#theband {
             visibility: hidden;
         }
@@ -39,7 +37,10 @@ body {
         img#facesmain {
             visibility: hidden;
         }
-
+             /* desktop view: band symbol  */
+        img#idsymbol {
+                visibility: hidden;
+               }
 
             /* side nav */
         div.nav {
@@ -61,10 +62,6 @@ body {
                 /*band logo*/
             img#logoname {
             width:77px;
-           }
-                /* band symbol */
-           img#idsymbol {
-            visibility: hidden;
            }
 
            p#aboutpara1 {
@@ -89,12 +86,14 @@ body {
             }
 
 @media screen and (orientation: landscape) { /* landscape rules */
-        div.topnav {
+    div.topnav {
             display:none;
             visibility: hidden;
             }  
         }
    
+
+
 /* *********** *//* LINKS *//* *********** */
 a:link{
     color:grey;
