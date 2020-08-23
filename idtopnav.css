@@ -600,13 +600,11 @@ div.connecttext {
     position: absolute;
     font-family:'Saira', Arial, Helvetica, sans-serif;
     font-size:1em; 
-    text-align: left;
+    text-align: right;
     margin-bottom:0.5px;
-    padding-top: 155px;
-    padding-left: 199px;
    
 }
-
+/*
 div.connecttext1 {
     display:flex;
     flex-direction: column;
@@ -614,17 +612,20 @@ div.connecttext1 {
     font-family:'Saira', Arial, Helvetica, sans-serif;
     text-align: left;
     align-items: left;
-    padding-top: 222px;  
- 
-}
+    padding-top: 155px;
+    padding-left: 233px;
+}*/
 
 h3#contact {
-    width:155px;
-    padding-top:222px;
+    text-align: right;
+      
+    
 }
 
 h2#email {
-    width:155px;
+    text-align: right;
+  
+    
 }
 
         h3#socialmedia {
@@ -633,6 +634,7 @@ h2#email {
             background-color: grey;
             font-family:'Saira', Arial, Helvetica, sans-serif;
             width:155px;
+            padding-left:111px;
     }
             
                 h2#sminsta {
@@ -640,6 +642,7 @@ h2#email {
                     color:white;
                     padding-top:1px;
                     font-family:'Saira', Arial, Helvetica, sans-serif;
+                    padding-left:111px;
                 }
             
                 h2#smyoutube {
@@ -647,14 +650,16 @@ h2#email {
                     color:white;
                     padding-top:1px;
                     font-family:'Saira', Arial, Helvetica, sans-serif;
+                    padding-left:111px;
                 }
  
                 h2#smtwitter {
                     display:flex;
-                    padding-left:11px;
+                    padding-left:111px;
                     color:white;
                     padding-top:1px;
                     font-family:'Saira', Arial, Helvetica, sans-serif;
+                    padding-left:111px;
                 }
                 
   
@@ -663,6 +668,7 @@ h2#email {
                     padding-left:11px;
                     padding-top:1px;
                     font-family:'Saira', Arial, Helvetica, sans-serif;
+                    padding-left:111px;
                 }
             
                 h2#smbandcamp {
@@ -671,6 +677,7 @@ h2#email {
                     color:white;
                     padding-top:1px;
                     font-family:'Saira', Arial, Helvetica, sans-serif;
+                    padding-left:111px;
                 }
 
 
